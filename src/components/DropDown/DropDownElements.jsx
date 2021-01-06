@@ -15,7 +15,7 @@ export const DdContainer = styled.div`
   transition: 0.3s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? '1' : '0')};
   top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
-`
+`;
 export const Icon = styled.div`
   position: absolute;
   top: 1.2rem;
@@ -24,12 +24,12 @@ export const Icon = styled.div`
   font-size: 2rem;
   cursor: pointer;
   outline: none;
-`
+`;
 export const CloseIcon = styled(FaTimes)`
   color: #000d1a;
-`
+`;
 export const DropDownWrapper = styled.div`
-`
+`;
 export const DropDownMenu = styled.div`
   display: grid;
   grid-template-columns: 1fr;
@@ -40,7 +40,7 @@ export const DropDownMenu = styled.div`
   @media screen and (max-width: 480px) {
     grid-template-rows: repeat(4, 60px);
   }
-`
+`;
 export const DropDownLink = styled(Link)`
   display: flex;
   align-items: center;
@@ -55,8 +55,8 @@ export const DropDownLink = styled(Link)`
   &:hover {
     color: #000d1a;
   }
-`
+`;
 export const BtnWrap = styled.div`
   display: flex;
   justify-content: center;
-`
+`;
