@@ -10,7 +10,6 @@ export const Nav =  styled.nav`
   z-index: 100;
   position: fixed;
   width: 100%;
-  background: red;
 `;
 
 export const NavLink = css`
@@ -28,9 +27,19 @@ export const Logo = styled(Link)`
 `;
 export const MenuBars = styled(FaBars)`
   display: none;
+  
 
   @media screen and (max-width: 768px) {
+    color: #fff;
     display: block;
+    background-size: contain;
+    height: 40px;
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-50%, 25%)
   }
 `;
 export const NavMenu = styled.div`
