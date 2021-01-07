@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import DropDown from './components/DropDown/DropDown';
+import Footer from './components/Footer/Footer';
 import Hero from './components/Hero/Hero';
 import InfoSection from './components/Info/InfoSection';
 import Navbar from './components/Navbar/Navbar'
@@ -23,6 +24,7 @@ function App() {
     <Hero slides={SliderData} />
     <InfoSection {...InfoData}/>
     <InfoSection {...InfoDataTwo}/>
+    <Footer />
     </>
   );
 }
