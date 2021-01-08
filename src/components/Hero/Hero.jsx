@@ -50,6 +50,7 @@ const Hero = ({slides}) => {
                   <HeroImage src={slide.image} alt={slide.alt}/>
                     <HeroContent>
                       <h1>{slide.title}</h1>
+                      <h2>{slide.subtitle}</h2>
                       <p>{slide.price}</p>
                       <Button
                         to={slide.path} 

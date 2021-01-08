@@ -12,7 +12,7 @@ export const HeroWrapper = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   overflow: hidden;
   position: relative;
@@ -75,6 +75,14 @@ export const HeroContent = styled.div`
     text-align:left;
     margin-bottom: 0.8rem;
   }
+  h2 {
+    font-size: clamp(0.8rem, 8vw, 1rem);
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    text-align:left;
+    margin-bottom: 0.8rem;
+  }
   p {
     margin-bottom: 1.2rem;
     text-shadow: 0px 0px 20px rgba(0,0,0,0.4);
@@ -105,7 +113,7 @@ export const arrowButtons = css`
   transition: 0.3s;
 
   &:hover {
-    background: #cd853f;
+    background: #3f8fcd;
     transform: scale(1.05);
   }
 `;
