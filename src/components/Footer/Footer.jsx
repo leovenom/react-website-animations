@@ -22,11 +22,11 @@ const Footer = () => {
                 <FooterLink to='/'>Terms of Service</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
-              <FooterLinkTitle>Contact Us</FooterLinkTitle>
-                <FooterLink to='/'>Contact</FooterLink>
-                <FooterLink to='/'>Support</FooterLink>
-                <FooterLink to='/'>Destinations</FooterLink>
-                <FooterLink to='/'>Sponsorships</FooterLink>
+              <FooterLinkTitle>Kontakt</FooterLinkTitle>
+                <FooterLink to='/'>Ihre Anfrage</FooterLink>
+                <FooterLink to='/'>04121-7885496</FooterLink>
+                <FooterLink to='/'>0176-63455632</FooterLink>
+                <FooterLink to='/'>hajo.lauenstein@t-online.de</FooterLink>
             </FooterLinkItems>
           </FooterLinkWrapper>
 

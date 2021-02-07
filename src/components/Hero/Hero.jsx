@@ -56,6 +56,8 @@ const Hero = ({slides}) => {
                         to={slide.path} 
                         primary='true'
                         css={`max-width: 160px;`}
+                        alt="Buy now" 
+                        title="Buy now"
                       >
                         {slide.label}
                         <Arrow />
@@ -67,8 +69,8 @@ const Hero = ({slides}) => {
           );
         })}
         <SliderButtons>
-          <PrevArrow onClick={prevSlide} />
-          <NextArrow onClick={nextSlide}/>
+          <PrevArrow onClick={prevSlide} alt="Previous slide" title="Previous slide"/>
+          <NextArrow onClick={nextSlide} alt="Next slide" title="Next slide"/>
         </SliderButtons>
       </HeroWrapper>
     </HeroSection>

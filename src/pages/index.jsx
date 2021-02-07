@@ -4,7 +4,7 @@ import Footer from '../components/Footer/Footer';
 import Hero from '../components/Hero/Hero';
 import InfoSection from '../components/Info/InfoSection';
 import Navbar from '../components/Navbar/Navbar'
-import { InfoData, InfoDataTwo } from '../data/InfoData';
+import { InfoData, InfoDataThree, InfoDataTwo, InfoDataFour } from '../data/InfoData';
 import { SliderData } from '../data/SliderData';
 import GlobalStyle from '../globalStyles';
 
@@ -24,6 +24,8 @@ function App() {
     <Hero slides={SliderData} />
     <InfoSection {...InfoData}/>
     <InfoSection {...InfoDataTwo}/>
+    <InfoSection {...InfoDataThree}/>
+    <InfoSection {...InfoDataFour}/>
     <Footer />
     </>
   );

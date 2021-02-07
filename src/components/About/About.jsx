@@ -56,7 +56,7 @@ const ColumnRight = styled.div`
   }
 `;
 
-const InfoSection = ({heading, paragraphOne, paragraphTwo, buttonLabel, image, reverse}) => {
+const about = ({heading, paragraphOne, paragraphTwo, buttonLabel, image, reverse}) => {
   return (
     <Section>
       <Container>
@@ -74,4 +74,4 @@ const InfoSection = ({heading, paragraphOne, paragraphTwo, buttonLabel, image, r
   )
 }
 
-export default InfoSection
+export default about

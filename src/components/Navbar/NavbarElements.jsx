@@ -3,14 +3,21 @@ import {Link} from 'react-router-dom';
 import {FaBars} from 'react-icons/fa'
 
 export const Nav =  styled.nav`
-  height: 60px;
+  background: ${({scrollNav}) => (scrollNav ? '#3f8fcd' : 'transparent')};
+  height: 80px;
   display: flex;
   justify-content: space-between;
   padding: 1rem 2rem;
   z-index: 100;
   position: fixed;
   width: 100%;
+
+  
+  @media screen and (max-width: 960px) {
+    transition: 0.8s all ease;
+  }
 `;
+
 
 export const NavLink = css`
   color: #fff;

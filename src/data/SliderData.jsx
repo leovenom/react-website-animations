@@ -8,7 +8,7 @@ export const SliderData = [
     title: 'Sculptures 3',
     subtitle:'60x40cm, Alu-Dibond with gallery rail',
     price: '€90,00',
-    path: '/home',
+    path: '/shop',
     label: 'Buy now',
     image: ImageOne,
     alt: 'Sculptures 3'
@@ -17,7 +17,7 @@ export const SliderData = [
     title: 'Structures 1',
     subtitle:'60x40cm, Alu-Dibond with gallery rail',
     price: '€90,00',
-    path: '/home',
+    path: '/shop',
     label: 'Buy now',
     image: ImageTwo,
     alt: 'Sculptures 3'
@@ -26,7 +26,7 @@ export const SliderData = [
     title: 'Iceberg 1',
     subtitle:'90x60cm, Alu-Dibond with gallery rail',
     price: '€130,00',
-    path: '/home',
+    path: '/shop',
     label: 'Buy now',
     image: ImageThree,
     alt: 'Iceberg 1'
@@ -35,7 +35,7 @@ export const SliderData = [
     title: 'Iceberg 5',
     subtitle:'90x60cm, Alu-Dibond with gallery rail',
     price: '€130,00',
-    path: '/home',
+    path: '/shop',
     label: 'Buy now',
     image: ImageFour,
     alt: 'Iceberg 5'
@@ -46,7 +46,7 @@ export const SliderData = [
 //   {
 //     title: '1',
 //     price: '€80,00',
-//     path: '/home',
+//     path: '/shop',
 //     label: '1 home',
 //     image: ImageFive,
 //     alt: 'antartica 1'
