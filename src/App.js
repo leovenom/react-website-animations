@@ -4,6 +4,7 @@ import Contact from './pages/contact';
 import About from './pages/about';
 import Homes from './pages/homes';
 import Rentals from './pages/rentals';
+import Shop from './pages/shop';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path='/about' component={About}/>
         <Route path='/homes' component={Homes} />
         <Route path='/rentals' component={Rentals} />
+        <Route path='/shop' component={Shop} />
       </Switch>
     </Router>
   );

@@ -5,10 +5,7 @@ import { Button } from '../Button/ButtonElements';
 const Section = styled.section`
   width: 100%;
   height: 100%;
-  padding: 4rem 0rem;
-  @media screen and (max-width: 768px) {
-    padding: 0px;
-  }
+  padding: 5rem 0px 0px 0px;
 `;
 const Container = styled.div`
   padding: 3rem calc(100vw - 1300px) /2;
@@ -18,7 +15,7 @@ const Container = styled.div`
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
-    grid-template-rows: 400px;
+    padding: 4rem 0rem 0rem 0rem;
   }
 `;
 const ColumnLeft = styled.div`
@@ -26,11 +23,11 @@ const ColumnLeft = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 1rem 5rem;
+  padding: 2rem 6rem;
   order: ${({reverse}) => (reverse ? '2' : '1')};
 
   @media screen and (max-width: 768px) {
-    padding: 1rem 3rem;
+    padding: 2rem 3rem;
   }
 
   h1 {
@@ -42,7 +39,7 @@ const ColumnLeft = styled.div`
   }
 `;
 const ColumnRight = styled.div`
-  padding: 1rem 2rem;
+  /* padding: 2rem 0rem; */
   order: ${({reverse}) => (reverse ? '1' : '2')};
   display: flex;
   justify-content: center;
@@ -50,7 +47,7 @@ const ColumnRight = styled.div`
 
   @media screen and (max-width: 768px) {
     order: ${({reverse}) => (reverse ? '2' : '1')};
-    padding: 0px;
+    padding: 5rem 0rem 0rem 0rem;
   }
 
   img {
@@ -65,14 +62,16 @@ const ColumnRight = styled.div`
   }
 `;
 
-const InfoSection = ({heading, paragraphOne, paragraphTwo, buttonLabel, image, reverse}) => {
-  return (
+const about = ({heading, paragraphOne, paragraphTwo, paragraphThree, paragraphFour,  buttonLabel, image, reverse}) => {
+  return ( 
     <Section>
       <Container>
         <ColumnLeft reverse={reverse}>
           <h1>{heading}</h1>
           <p>{paragraphOne}</p>
-          {/* <p>{paragraphTwo}</p> */}
+          <p>{paragraphTwo}</p>
+          <p>{paragraphThree}</p>
+          <p>{paragraphFour}</p>
           <Button to="/contact" primary="true">{buttonLabel}</Button>
         </ColumnLeft>
         <ColumnRight reverse={reverse}>
@@ -83,4 +82,4 @@ const InfoSection = ({heading, paragraphOne, paragraphTwo, buttonLabel, image, r
   )
 }
 
-export default InfoSection
+export default about

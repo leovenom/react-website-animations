@@ -1,14 +1,11 @@
 import React from 'react'
 import styled from 'styled-components';
-import { Button } from '../Button/ButtonElements';
+// import { Button } from '../Button/ButtonElements';
 
 const Section = styled.section`
   width: 100%;
   height: 100%;
   padding: 4rem 0rem;
-  @media screen and (max-width: 768px) {
-    padding: 0px;
-  }
 `;
 const Container = styled.div`
   padding: 3rem calc(100vw - 1300px) /2;
@@ -64,6 +61,27 @@ const ColumnRight = styled.div`
     }
   }
 `;
+const ButtonLink = styled.a`
+  background: ${({ primary }) =>  (primary ? '#000d1a' : 'CD853F')};
+  white-space: nowrap;
+  outline: none;
+  border: none;
+  min-width: 100px;
+  max-width: 200px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: ${({big}) => (big ? '16px 40px' :  '14px 24px')};
+  color: ${({primary}) => (primary ? '#fff' :  '#000d1a')};
+  font-size: ${({big}) => (big ? '20px' :  '14px')};
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+`;
 
 const InfoSection = ({heading, paragraphOne, paragraphTwo, buttonLabel, image, reverse}) => {
   return (
@@ -73,7 +91,7 @@ const InfoSection = ({heading, paragraphOne, paragraphTwo, buttonLabel, image, r
           <h1>{heading}</h1>
           <p>{paragraphOne}</p>
           {/* <p>{paragraphTwo}</p> */}
-          <Button to="/contact" primary="true">{buttonLabel}</Button>
+          <ButtonLink href="https://www.youtube.com/watch?v=2n6fxQqmwgE"  target='_blank' primary="true">{buttonLabel}</ButtonLink>
         </ColumnLeft>
         <ColumnRight reverse={reverse}>
           <img src={image} alt="home" />

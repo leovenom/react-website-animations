@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import {FaBars} from 'react-icons/fa'
 
 export const Nav =  styled.nav`
-  background: ${({scrollNav}) => (scrollNav ? '#3f8fcd' : 'transparent')};
+  background: ${({scrollNav}) => (scrollNav ? '#3f8fcd' : '#3f8fcd')};
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -41,12 +41,12 @@ export const MenuBars = styled(FaBars)`
     color: #fff;
     display: block;
     background-size: contain;
-    height: 50px;
+    height: 40px;
     width: 30px;
     cursor: pointer;
     position: absolute;
     top: 0;
-    right: 10px;
+    right: 0;
     transform: translate(-50%, 25%)
   }
 `;

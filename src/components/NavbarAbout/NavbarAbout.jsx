@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { Nav, Logo, MenuBars, NavMenu, NavMenuLinks, NavBtn} from './NavbarElements'
+import { Nav, Logo, MenuBars, NavMenu, NavMenuLinks, NavBtn} from './NavbarAboutElements'
 import { menuData } from '../../data/MenuData'
 import { Button } from '../Button/ButtonElements';
 

@@ -31,8 +31,9 @@ export const Icon = styled(Link)`
   margin-top: 40px;
   text-decoration: none;
   color: #fff;
-  font-weight: bold;
   font-size: 32px;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
 
   @media screen and (max-width: 480px) {
     justify-content: center;
