@@ -7,7 +7,7 @@ const SignIn = () => {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('service_wyz50yt', 'template_pxi9lbh', e.target, 'user_12T6PVF5oIb4Wm6EGuEhu')
+    emailjs.sendForm('service_3t552xh', 'template_pxi9lbh', e.target, 'user_12T6PVF5oIb4Wm6EGuEhu')
     .then((result) => {
       alert('E-mail enviado com sucesso.', result.status, result.text);
   }, (error) => {

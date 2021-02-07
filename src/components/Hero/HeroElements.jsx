@@ -7,6 +7,7 @@ export const HeroSection = styled.section`
   max-height: 1100px;
   position: relative;
   overflow: hidden;
+  margin-bottom: 1rem;
 `;
 export const HeroWrapper = styled.div`
   width: 100%;
@@ -64,8 +65,12 @@ export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 1600px;
-  width: calc(100% - 100px);
+  width: calc(100% - 200px);
   color: #fff;
+  @media screen and (max-width: 768px) {
+    width: calc(100% - 100px);
+  }
+  
 
   h1 {
     font-size: clamp(1rem, 8vw, 2.5rem);
@@ -95,9 +100,12 @@ export const Arrow = styled(IoMdArrowRoundForward)`
 export const SliderButtons = styled.div`
   position: absolute;
   bottom: 50px;
-  right: 50px;
+  right: 100px;
   display: flex;
   z-index: 10;
+  @media screen and (max-width: 768px) {
+    right: 50px;
+  }
 `;
 
 export const arrowButtons = css`

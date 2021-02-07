@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Footer from '../components/Footer/Footer';
-import Navbar from '../components/Navbar/Navbar'
+import NavbarAbout from '../components/NavbarAbout/NavbarAbout'
 import GlobalStyle from '../globalStyles';
 import AboutPage from '../components/About/About';
 import { AboutData } from '../data/AboutData';
@@ -16,7 +16,7 @@ const About = () => {
   return (
     <>
       <GlobalStyle />
-      <Navbar toggle={toggle}/>
+      <NavbarAbout toggle={toggle}/>
       <DropDown isOpen={isOpen} toggle={toggle}/>
       <AboutPage {...AboutData}/>
       <Footer />

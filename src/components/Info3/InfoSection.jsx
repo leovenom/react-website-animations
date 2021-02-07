@@ -5,10 +5,7 @@ import { Button } from '../Button/ButtonElements';
 const Section = styled.section`
   width: 100%;
   height: 100%;
-  padding: 4rem 0rem;
-  @media screen and (max-width: 768px) {
-    padding: 0px;
-  }
+  /* padding: 4rem 0rem; */
 `;
 const Container = styled.div`
   padding: 3rem calc(100vw - 1300px) /2;
@@ -26,11 +23,11 @@ const ColumnLeft = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 1rem 5rem;
+  padding: 1rem 1rem 0px 5rem;
   order: ${({reverse}) => (reverse ? '2' : '1')};
 
   @media screen and (max-width: 768px) {
-    padding: 1rem 3rem;
+    padding-left: 3rem;
   }
 
   h1 {
@@ -38,7 +35,7 @@ const ColumnLeft = styled.div`
     font-size: clamp(1.5rem, 6vw, 2rem);
   }
   p {
-    margin-bottom: 2rem;
+    margin-bottom: 0.8rem;
   }
 `;
 const ColumnRight = styled.div`
@@ -54,8 +51,8 @@ const ColumnRight = styled.div`
   }
 
   img {
-    width: 100%;
-    height: 100%;
+    width: 900px;
+    height: 80%;
     object-fit: cover;
 
     @media screen and (max-width: 768px) {
@@ -65,15 +62,16 @@ const ColumnRight = styled.div`
   }
 `;
 
-const InfoSection = ({heading, paragraphOne, paragraphTwo, buttonLabel, image, reverse}) => {
+const InfoSection = ({heading, paragraphOne, paragraphTwo, paragraphThree, buttonLabel, image, reverse}) => {
   return (
     <Section>
       <Container>
         <ColumnLeft reverse={reverse}>
           <h1>{heading}</h1>
           <p>{paragraphOne}</p>
-          {/* <p>{paragraphTwo}</p> */}
-          <Button to="/contact" primary="true">{buttonLabel}</Button>
+          <p>{paragraphTwo}</p>
+          <p>{paragraphThree}</p>
+          <Button to="/contact" target='_blank' primary="true">{buttonLabel}</Button>
         </ColumnLeft>
         <ColumnRight reverse={reverse}>
           <img src={image} alt="home" />
