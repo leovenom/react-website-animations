@@ -6,7 +6,6 @@ import Homes from './pages/homes';
 import Rentals from './pages/rentals';
 import Shop from './pages/shop';
 
-
 function App() {
   return (
     <Router>

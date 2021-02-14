@@ -39,7 +39,7 @@ const ColumnLeft = styled.div`
   }
 `;
 const ColumnRight = styled.div`
-  /* padding: 2rem 0rem; */
+  padding: 2rem 2rem;
   order: ${({reverse}) => (reverse ? '1' : '2')};
   display: flex;
   justify-content: center;
@@ -72,7 +72,7 @@ const about = ({heading, paragraphOne, paragraphTwo, paragraphThree, paragraphFo
           <p>{paragraphTwo}</p>
           <p>{paragraphThree}</p>
           <p>{paragraphFour}</p>
-          <Button to="/contact" primary="true">{buttonLabel}</Button>
+          {/* <Button to="/contact" primary="true">{buttonLabel}</Button> */}
         </ColumnLeft>
         <ColumnRight reverse={reverse}>
           <img src={image} alt="home" />

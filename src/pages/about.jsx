@@ -5,7 +5,7 @@ import GlobalStyle from '../globalStyles';
 import AboutPage from '../components/About/About';
 import { AboutData } from '../data/AboutData';
 import DropDown from '../components/DropDown/DropDown';
-
+import ScrollToTop from '../components/ScrollToTop';
 
 const About = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,6 +16,7 @@ const About = () => {
   return (
     <>
       <GlobalStyle />
+      <ScrollToTop />
       <NavbarAbout toggle={toggle}/>
       <DropDown isOpen={isOpen} toggle={toggle}/>
       <AboutPage {...AboutData}/>
