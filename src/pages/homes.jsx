@@ -92,7 +92,7 @@ const Homes = () => {
 					{filteredImages.map(image => (
 						<div key={image.id} className="image-card">
 							<a href={`/images/${image.imageName}`}>
-								<img className="image" src={`/images/${image.imageName}`} alt={ image.description + ' -' + ' (' + image.title + ')' } />
+								<img className="image" src={`/images/${image.imageName}`} alt={ image.description + ' (' + image.title + ')' } />
 							</a>
 						</div>
 					))}
