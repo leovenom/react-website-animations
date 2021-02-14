@@ -1,5 +1,5 @@
 
-export default [
+export const Foo = [
 	{ id: '1', 
 	imageName: 'pictures/Shapeandcolor3.jpg',
 	heading: "Form und Farbe 3",
@@ -110,5 +110,5 @@ export default [
   paragraphOne: "90x60cm",
   paragraphTwo: "Alu-Dibond mit Galerieschiene",
   paragraphThree: "€ 130 Euro",
-	}
-]
+	},
+];

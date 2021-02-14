@@ -8,7 +8,7 @@ import styled from 'styled-components';
 // import { PhotoData, Photo2, Photo3, Photo4, Photo5, Photo6, Photo7, Photo8, Photo9, Photo10, Photo11, Photo12, Photo13, Photo14 } from '../data/PhotoData';
 import ScrollToTop from '../components/ScrollToTop';
 import { SRLWrapper } from 'simple-react-lightbox';
-import ImagesData from '../data/ImagesExpoData';
+import {Foo} from '../data/ImagesExpoData';
 import '../components/Shop/Shop.css';
 
 const options = {
@@ -116,7 +116,7 @@ const Shop = () => {
       <InfoSection3 {...Photo14}/> */}
       <SRLWrapper options={options}>
 				<div className="containerShop">
-					{ImagesData.map(image => (
+					{Foo.map(image => (
 						<div key={image.id} className="image-card">
 							<a href={`/images/${image.imageName}`} >
 								<img className="image" src={`/images/${image.imageName}`} title={image.heading} alt= { image.heading  + ' (' + image.paragraphOne + ')' + image.paragraphThree} />
