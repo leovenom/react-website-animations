@@ -109,5 +109,5 @@ export default [
 	tag: 'new',
 	title: 'leo',
 	description: 'lau'
-	},
-];
+	}
+]

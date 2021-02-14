@@ -110,5 +110,5 @@ export default [
   paragraphOne: "90x60cm",
   paragraphTwo: "Alu-Dibond mit Galerieschiene",
   paragraphThree: "€ 130 Euro",
-	},
-];
+	}
+]
