@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import images from '../data/ImagesData';
+import {Image}from '../data/ImagesData';
 import { SRLWrapper } from 'simple-react-lightbox';
 import '../components/Homes/Home.css';
 import Footer from '../components/Footer/Footer';
@@ -40,7 +40,7 @@ const Homes = () => {
 
   useEffect(
 		() => {
-			tag === 'all' ? setFilteredImages(images) : setFilteredImages(images.filter(image => image.tag === tag));
+			tag === 'all' ? setFilteredImages(Image) : setFilteredImages(Image.filter(image => image.tag === tag));
 		},
 		[tag]
 	);

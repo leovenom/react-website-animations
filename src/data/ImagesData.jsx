@@ -1,4 +1,4 @@
-export default [
+export const Image = [
 	{ id: '1', 
 	imageName: 'img1.jpeg',
 	tag: 'free', 
