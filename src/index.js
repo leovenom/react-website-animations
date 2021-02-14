@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router} from 'react-router-dom';
+import SimpleReactLightbox from 'simple-react-lightbox';
 
 ReactDOM.render(
     <Router>
-      <App />
+      <SimpleReactLightbox>
+        <App />
+      </SimpleReactLightbox>
     </Router>,
   document.getElementById('root')
 );

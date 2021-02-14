@@ -1,0 +1,53 @@
+.tags {
+	text-align: center;
+	padding: 20px 0px;
+	background-color: #fff;
+  /* height: 150px; */
+  padding: 1rem 5rem;
+	z-index: 98;
+	position: fixed;
+  width: 100%;
+}
+
+.tag {
+	outline: none;
+	border: none;
+	color: #000;
+	margin: 0px 10px;
+	background-color: transparent;
+	cursor: pointer;
+	margin-top: 90px;
+}
+
+.active {
+	font-weight: bold;
+	border-bottom: 1px solid #3f8fcd;
+	color: #3f8fcd;
+}
+.containerShop {
+	width: 94%;
+	margin: auto;
+	display: grid;
+	/* grid-template-columns: repeat(4, 1fr); */
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	transition: 0.3s ease-in-out;
+	gap: 20px;
+	/* padding-top: 0px; */
+}
+
+.image-card {
+	padding: 5px;
+	margin: 5px;
+	/* border: 1px solid #ddd; */
+	/* border-radius: 2px; */
+}
+
+.image {
+	width: 100%;
+}
+
+#Shop {
+	margin: 0.5rem;
+	text-align: center;
+	font-size: clamp(0.75rem, 2vw, 1rem);
+}

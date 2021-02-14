@@ -3,14 +3,42 @@ import Footer from '../components/Footer/Footer';
 import NavbarAbout from '../components/NavbarAbout/NavbarAbout'
 import GlobalStyle from '../globalStyles';
 import DropDown from '../components/DropDown/DropDown';
-import InfoSection3 from '../components/Info3/InfoSection';
+// import InfoSection3 from '../components/Info3/InfoSection';
 import styled from 'styled-components';
-import { PhotoData, Photo2, Photo3, Photo4, Photo5, Photo6, Photo7, Photo8, Photo9, Photo10, Photo11, Photo12, Photo13, Photo14 } from '../data/PhotoData';
+// import { PhotoData, Photo2, Photo3, Photo4, Photo5, Photo6, Photo7, Photo8, Photo9, Photo10, Photo11, Photo12, Photo13, Photo14 } from '../data/PhotoData';
+import ScrollToTop from '../components/ScrollToTop';
+import { SRLWrapper } from 'simple-react-lightbox';
+import ImagesData from '../data/ImagesExpoData';
+import '../components/Shop/Shop.css';
+
+const options = {
+  buttons: {
+    backgroundColor: 'rgba(30,30,36,0.8)',
+    iconColor: '#3f8fcd',
+    iconPadding: '5px',
+    showAutoplayButton: true,
+    showCloseButton: true,
+    showDownloadButton: false,
+    showFullscreenButton: false,
+    showNextButton: true,
+    showPrevButton: true,
+    size: '30px'
+  },
+  caption: {
+    showCaption: true,
+    captionColor: '#FFFFFF',
+    captionFontFamily: 'inherit',
+    captionFontSize: 'inherit',
+    captionFontStyle: 'inherit',
+    captionFontWeight: 'inherit',
+    captionTextTransform: 'inherit'
+  }
+}
 
 const Section = styled.section`
   width: 100%;
   height: 100%;
-  padding: 5rem 0rem;
+  padding: 5rem 0rem 0rem;
 `;
 const Container = styled.div`
   padding: 3rem calc(100vw - 1300px) /2;
@@ -56,9 +84,11 @@ const Shop = () => {
   const toggle = () => {
     setIsOpen(!isOpen);
   };
+  
   return (
     <>
       <GlobalStyle />
+      <ScrollToTop />
       <NavbarAbout toggle={toggle}/>
       <DropDown isOpen={isOpen} toggle={toggle}/>
       <Section>
@@ -70,7 +100,7 @@ const Shop = () => {
         </Column>
       </Container>
     </Section>
-      <InfoSection3 {...PhotoData}/>
+      {/* <InfoSection3 {...PhotoData}/>
       <InfoSection3 {...Photo2}/>
       <InfoSection3 {...Photo3}/>
       <InfoSection3 {...Photo4}/>
@@ -83,7 +113,19 @@ const Shop = () => {
       <InfoSection3 {...Photo11}/>
       <InfoSection3 {...Photo12}/>
       <InfoSection3 {...Photo13}/>
-      <InfoSection3 {...Photo14}/>
+      <InfoSection3 {...Photo14}/> */}
+      <SRLWrapper options={options}>
+				<div className="containerShop">
+					{ImagesData.map(image => (
+						<div key={image.id} className="image-card">
+							<a href={`/images/${image.imageName}`} >
+								<img className="image" src={`/images/${image.imageName}`} title={image.heading} alt= { image.heading  + ' (' + image.paragraphOne + ')' + ' - ' + image.paragraphThree} />
+              </a>
+              {/* <p id="Shop">{image.heading}</p> */}
+						</div>
+					))}
+				</div>
+			</SRLWrapper>
       <Footer />
     </>
     
