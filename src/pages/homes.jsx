@@ -84,9 +84,7 @@ const Homes = () => {
 				<TagButton name="all" tagActive={tag === 'all' ? true : false} handleSetTag={setTag} /> /
 				<TagButton name="Landscape" tagActive={tag === 'Landscape' ? true : false} handleSetTag={setTag} /> /
 				<TagButton name="Fauna and Flora" tagActive={tag === 'Fauna and Flora' ? true : false} handleSetTag={setTag} /> /
-				<TagButton name="People" tagActive={tag === 'People' ? true : false} handleSetTag={setTag} /> /
-        <TagButton name="Culture" tagActive={tag === 'Culture' ? true : false} handleSetTag={setTag} /> /
-        <TagButton name="architecture" tagActive={tag === 'architecture' ? true : false} handleSetTag={setTag} />
+				<TagButton name="People" tagActive={tag === 'People' ? true : false} handleSetTag={setTag} />
 			</div>
       <ScrollToTop />
 			<SRLWrapper options={options}>
