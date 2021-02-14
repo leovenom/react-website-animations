@@ -119,7 +119,7 @@ const Shop = () => {
 					{ImagesData.map(image => (
 						<div key={image.id} className="image-card">
 							<a href={`/images/${image.imageName}`} >
-								<img className="image" src={`/images/${image.imageName}`} title={image.heading} alt= { image.heading  + ' (' + image.paragraphOne + ')' + ' - ' + image.paragraphThree} />
+								<img className="image" src={`/images/${image.imageName}`} title={image.heading} alt= { image.heading  + ' (' + image.paragraphOne + ')' + image.paragraphThree} />
               </a>
               {/* <p id="Shop">{image.heading}</p> */}
 						</div>
