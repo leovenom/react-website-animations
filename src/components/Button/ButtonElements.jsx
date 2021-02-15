@@ -23,3 +23,27 @@ export const Button = styled(Link)`
   }
 `
 
+
+export const Button2 = styled(Link)`
+  /* background: ${({ primary }) =>  (primary ? '#000d1a' : 'CD853F')}; */
+  white-space: nowrap;
+  outline: none;
+  border: none;
+  /* min-width: 100px;
+  max-width: 200px; */
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  color: #3f8fcd;
+  /* padding: ${({big}) => (big ? '16px 40px' :  '14px 24px')};
+  color: ${({primary}) => (primary ? '#fff' :  '#000d1a')};
+  font-size: ${({big}) => (big ? '20px' :  '14px')}; */
+
+  &:hover {
+    color:#000;
+    transition: 0.3s ease-in-out;
+  }
+`

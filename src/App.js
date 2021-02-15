@@ -2,7 +2,7 @@ import {BrowserRouter as Router, Switch, Route} from  'react-router-dom'
 import Home from './pages';
 import Contact from './pages/contact';
 import About from './pages/about';
-import Homes from './pages/homes';
+import Gallery from './pages/Gallery';
 import Rentals from './pages/rentals';
 import Shop from './pages/shop';
 
@@ -13,7 +13,7 @@ function App() {
         <Route path='/' component={Home} exact />
         <Route path='/contact' component={Contact}/>
         <Route path='/about' component={About}/>
-        <Route path='/homes' component={Homes} />
+        <Route path='/Gallery' component={Gallery} />
         <Route path='/rentals' component={Rentals} />
         <Route path='/shop' component={Shop} />
       </Switch>
