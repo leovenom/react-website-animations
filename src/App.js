@@ -3,7 +3,7 @@ import Home from './pages';
 import Contact from './pages/contact';
 import About from './pages/about';
 import Gallery from './pages/Gallery';
-import Rentals from './pages/rentals';
+import Tour from './pages/Tour';
 import Shop from './pages/shop';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <Route path='/contact' component={Contact}/>
         <Route path='/about' component={About}/>
         <Route path='/Gallery' component={Gallery} />
-        <Route path='/rentals' component={Rentals} />
+        <Route path='/Tour' component={Tour} />
         <Route path='/shop' component={Shop} />
       </Switch>
     </Router>
