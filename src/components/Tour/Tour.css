@@ -7,6 +7,14 @@
   padding-top: 170px;
 }
 
+.hero-tour2{
+  background: #3da3d5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  /* color: rgb(53, 53, 53); */
+  color: #000;
+}
+
 .title {
   font-size: clamp(3.5rem,6vw,6rem);
   text-align: center;
