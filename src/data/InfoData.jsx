@@ -1,12 +1,14 @@
-import ImageOne from '../images/ImageThree.jpg'
-import ImageTwo from '../images/ImageFour.jpg'
+import ImageOne from '../images/ImageTwo.jpg'
+import ImageTwo from '../images/Image8.jpg'
+import ImageTree from '../images/Image9.jpg'
+import ImageFour from '../images/ImageSeven.jpg'
 
 export const InfoData = {
   heading: "Reiseleitung",
   paragraphOne: "Reisebegleitung und Kreuzfahrten: weltweit, Reiseleitung: Südamerika, Nordeuropa und Sonstige.",
   // paragraphTwo: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. At explicabo enim ab dolor cumque quos",
   buttonLabel: "Vortragsausschnitt",
-  image: ImageOne,
+  image: ImageTree,
   reverse: false,
   delay: 100
 }
@@ -36,7 +38,7 @@ export const InfoDataFour = {
   paragraphOne: "Erkunden und Bewerten von touristischen Zielen: Landschaft, Natur, Kultur, Hotels und Restaurants.",
   // paragraphTwo: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. At explicabo enim ab dolor cumque quos",
   buttonLabel: "Kontakt",
-  image: ImageTwo,
+  image: ImageFour,
   reverse: true,
   delay: 300
 }

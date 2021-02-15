@@ -2,43 +2,64 @@ import ImageOne from '../images/ImageOne.jpg'
 import ImageTwo from '../images/pictures/Eishohle1.jpg'
 import ImageThree from '../images/ImageThree.jpg'
 import ImageFour from '../images/ImageFour.jpg'
+import ImageFive from '../images/ImageFive.jpg'
+import ImageSix from '../images/ImageSix.jpg'
+
 
 export const SliderData = [
   {
-    title: 'Sculptures 3',
-    subtitle:'60x40cm, Alu-Dibond with gallery rail',
-    price: '€90,00',
-    path: '/shop',
-    label: 'Buy now',
+    title: 'Antarkits',
+    // subtitle:'Antarkits',
+    // price: '€90,00',
+    // path: '/Gallery',
+    // label: 'Gallery',
+    image: ImageFive,
+    alt: 'Picture'
+  },
+  {
+    title: 'Sculptures',
+    // subtitle:'60x40cm, Alu-Dibond with gallery rail',
+    // price: '€90,00',
+    // path: '/shop',
+    // label: 'Buy now',
     image: ImageOne,
-    alt: 'Sculptures 3'
+    alt: 'Sculptures'
+  },
+  {
+    title: 'Eisberg',
+    // subtitle:'Paulat Island',
+    // price: '€130,00',
+    // path: '/shop',
+    // label: 'Buy now',
+    image: ImageSix,
+    alt: 'Eisberg'
   },
   {
     title: 'Eishöhle',
-    subtitle:'90x60cm, Alu-Dibond with gallery rail',
-    price: '€130,00',
-    path: '/shop',
-    label: 'Buy now',
+    // subtitle:'90x60cm, Alu-Dibond with gallery rail',
+    // price: '€130,00',
+    // path: '/shop',
+    // label: 'Buy now',
     image: ImageTwo,
-    alt: 'Sculptures 3'
+    alt: 'Eishöhle'
   },
   {
-    title: 'Iceberg 1',
-    subtitle:'90x60cm, Alu-Dibond with gallery rail',
-    price: '€130,00',
-    path: '/shop',
-    label: 'Buy now',
+    title: 'Iceberg',
+    // subtitle:'90x60cm, Alu-Dibond with gallery rail',
+    // price: '€130,00',
+    // path: '/shop',
+    // label: 'Buy now',
     image: ImageThree,
-    alt: 'Iceberg 1'
+    alt: 'Iceberg'
   },
   {
-    title: 'Iceberg 5',
-    subtitle:'90x60cm, Alu-Dibond with gallery rail',
-    price: '€130,00',
-    path: '/shop',
-    label: 'Buy now',
+    title: 'Iceberg',
+    // subtitle:'90x60cm, Alu-Dibond with gallery rail',
+    // price: '€130,00',
+    // path: '/shop',
+    // label: 'Buy now',
     image: ImageFour,
-    alt: 'Iceberg 5'
+    alt: 'Iceberg'
   },
 ];
 

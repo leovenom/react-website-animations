@@ -27,15 +27,15 @@ export const FormWrap = styled.div`
   }
 `
 export const Icon = styled(Link)`
-  margin-left: 40px;
-  margin-top: 40px;
+  margin-left: 95px;
+  margin-top: 30px;
   text-decoration: none;
   color: #fff;
-  font-size: 32px;
+  font-size: 18px;
   font-style: italic;
   font-family: 'Montserrat', sans-serif;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 780px) {
     justify-content: center;
     display: flex;
     margin-top: 35px;
@@ -71,17 +71,19 @@ export const Form = styled.form`
 export const FormH1 = styled.h1`
   margin-bottom: 40px;
   color: #fff;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 400;
   text-align: center;
   font-weight: 800;
   letter-spacing: 1.4px;
+  font-family: 'Montserrat', sans-serif;
 `
 export const FormLabel = styled.label`
   margin-bottom: 8px;
   font-size: 14px;
   color: #fff;
   font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
 `
 export const FormInput = styled.input`
   padding: 14px 16px;

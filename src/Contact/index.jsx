@@ -23,7 +23,7 @@ const SignIn = () => {
           <Icon to='/'>HAJO</Icon>
           <FormContent>
             <Form onSubmit={sendEmail}>
-              <FormH1>Ich freue mich über Ihre Nachricht.</FormH1>
+              <FormH1>Ich freue mich über Ihre Nachricht</FormH1>
               <FormLabel htmlFor='for'>Name:</FormLabel>
                 <FormInput htmlFor='nome' name='user_nome' placeholder="Your name" required />
               <FormLabel htmlFor='for'>E-Mail:</FormLabel>
