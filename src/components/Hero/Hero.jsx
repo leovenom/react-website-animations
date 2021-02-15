@@ -1,6 +1,7 @@
 import React, {useState, useRef} from 'react'
-import { Button } from '../Button/ButtonElements'
-import { HeroSection, HeroWrapper, HeroSlide, HeroSlider, HeroImage, HeroContent, Arrow, SliderButtons, PrevArrow, NextArrow } from './HeroElements'
+// import { Button } from '../Button/ButtonElements'
+import { HeroSection, HeroWrapper, HeroSlide, HeroSlider, HeroImage, HeroContent, SliderButtons, PrevArrow, NextArrow } from './HeroElements'
+//Arrow
 
 
 const Hero = ({slides}) => {
