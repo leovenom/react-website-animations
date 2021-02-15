@@ -41,7 +41,7 @@ export const MenuBars = styled(FaBars)`
     color: #fff;
     display: block;
     background-size: contain;
-    height: 40px;
+    height: 50px;
     width: 30px;
     cursor: pointer;
     position: absolute;
