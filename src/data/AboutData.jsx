@@ -1,4 +1,4 @@
-import ImageAbout from '../images/hajo.jpeg'
+import ImageAbout from '../images/hajo.png'
 
 export const AboutData = {
   heading: "Dr. Hans-Joachim Lauenstein",

@@ -11,7 +11,7 @@ const Container = styled.div`
   padding: 3rem calc(100vw - 1300px) /2;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 800px;
+  /* grid-template-rows: 800px; */
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
@@ -75,7 +75,7 @@ const about = ({heading, paragraphOne, paragraphTwo, paragraphThree, paragraphFo
           {/* <Button to="/contact" primary="true">{buttonLabel}</Button> */}
         </ColumnLeft>
         <ColumnRight reverse={reverse}>
-          <img src={image} alt="home" />
+          <img src={image} alt="Hajo" />
         </ColumnRight>
       </Container>
     </Section>
