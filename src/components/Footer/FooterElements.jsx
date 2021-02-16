@@ -33,17 +33,18 @@ export const FooterLinkWrapper = styled.div`
 export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin: 16px;
   text-align: left;
-  width: 160px;
+  width: 200px;
   box-sizing: border-box;
   color: #fff;
 
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 820px) {
     margin: 0;
     padding: 10px;
     width: 100%;
+    align-items: center;
   }
 `
 export const FooterLinkTitle = styled.h1`
@@ -67,6 +68,17 @@ export const FooterLink2 = styled.a`
 
   &:hover {
     color:#000;
+    transition: 0.3s ease-in-out;
+  }
+`
+export const FooterLinkEmail = styled.a`
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+
+  &:hover {
+    color: #3f8fcd;
     transition: 0.3s ease-in-out;
   }
 `

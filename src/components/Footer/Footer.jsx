@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
-import { FooterContainer, FooterWrap, FooterLinkWrapper, FooterLinkItems, FooterLinkContainer, FooterLinkTitle, FooterLink, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from './FooterElements'
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube, FaWhatsapp } from 'react-icons/fa'
+import { FooterContainer, FooterWrap, FooterLinkWrapper, FooterLinkItems, FooterLinkContainer, FooterLinkTitle, FooterLink, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights, FooterLinkEmail } from './FooterElements'
 import { animateScroll as scroll } from 'react-scroll';
 
 const Footer = () => {
@@ -11,29 +11,37 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrap>
+        
         <FooterLinkContainer>
           <FooterLinkWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>About us</FooterLinkTitle>
-                <FooterLink to='/'>How it works</FooterLink>
-                <FooterLink to='/'>Testimonials</FooterLink>
-                <FooterLink to='/'>Carrers</FooterLink>
-                <FooterLink to='/'>Investor</FooterLink>
-                <FooterLink to='/'>Terms of Service</FooterLink>
+              <FooterLinkTitle>Hajo</FooterLinkTitle>
+                <FooterLink to='/about'>About</FooterLink>
+                <FooterLink to='/Gallery'>Gallery</FooterLink>
+                <FooterLink to='/Tour'>Tour</FooterLink>
+                <FooterLink to='/shop'>Shop</FooterLink>
+                {/* <FooterLink to='/'>Terms of Service</FooterLink> */}
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Kontakt</FooterLinkTitle>
-                <FooterLink to='/'>Ihre Anfrage</FooterLink>
-                <FooterLink to='/'>04121-7885496</FooterLink>
-                <FooterLink to='/'>0176-63455632</FooterLink>
-                <FooterLink to='/'>hajo.lauenstein@t-online.de</FooterLink>
+                <FooterLinkEmail href='https://wa.link/3t4h4q' target='_blank' >WhatsApp <FaWhatsapp /> </FooterLinkEmail>
+                <FooterLink to='/'>+49 04121 7885496</FooterLink>
+                <FooterLink to='/'>+49 0176 6345 5632</FooterLink>
+                <FooterLinkEmail href={`mailto:hajo.lauenstein@t-online.de`}>hajo.lauenstein@t-online.de</FooterLinkEmail>
+            </FooterLinkItems>
+            <FooterLinkItems>
+              <FooterLinkTitle>Videos</FooterLinkTitle>
+                <FooterLinkEmail href='//www.youtube.com/watch?v=2n6fxQqmwgE' target='_blank' title="Mystische Eiswelten Antarktis">Video</FooterLinkEmail>
+                {/* <FooterLink to='/'>Ambassadors</FooterLink>
+                <FooterLink to='/'>Agency</FooterLink>
+                <FooterLink to='/'>Influencer</FooterLink> */}
             </FooterLinkItems>
           </FooterLinkWrapper>
 
-          <FooterLinkWrapper>
+          {/* <FooterLinkWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Videos</FooterLinkTitle>
-                <FooterLink to='/'>Submit Video</FooterLink>
+                <FooterLinkEmail href='//www.youtube.com/watch?v=2n6fxQqmwgE' target='_blank' >Video</FooterLinkEmail>
                 <FooterLink to='/'>Ambassadors</FooterLink>
                 <FooterLink to='/'>Agency</FooterLink>
                 <FooterLink to='/'>Influencer</FooterLink>
@@ -45,7 +53,7 @@ const Footer = () => {
                 <FooterLink to='/'>Youtube</FooterLink>
                 <FooterLink to='/'>Twitter</FooterLink>
             </FooterLinkItems>
-          </FooterLinkWrapper>
+          </FooterLinkWrapper> */}
         </FooterLinkContainer>
         <SocialMedia>
           <SocialMediaWrap>
@@ -53,7 +61,7 @@ const Footer = () => {
               Hajo
             </SocialLogo>
             <WebsiteRights>Hajo © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
-            <SocialIcons>
+            {/* <SocialIcons>
               <SocialIconLink href='/' target='_blank' arial-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>
@@ -69,7 +77,7 @@ const Footer = () => {
               <SocialIconLink href='//www.linkedin.com/in/leonardtlauenstein/' target='_blank' arial-label='Linkedin'>
                 <FaLinkedin />
               </SocialIconLink>
-            </SocialIcons>
+            </SocialIcons> */}
           </SocialMediaWrap>
         </SocialMedia>
       </FooterWrap>
