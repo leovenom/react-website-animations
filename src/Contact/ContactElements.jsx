@@ -70,7 +70,6 @@ export const Form = styled.form`
   
   @media screen and (max-width: 400px) {
     padding: 11px 32px;
-  }
   `
 export const FormH1 = styled.h1`
   margin-bottom: 40px;
