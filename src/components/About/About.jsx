@@ -75,7 +75,7 @@ const about = ({heading, paragraphOne, paragraphTwo, paragraphThree, paragraphFo
           {/* <Button to="/contact" primary="true">{buttonLabel}</Button> */}
         </ColumnLeft>
         <ColumnRight reverse={reverse}>
-          <img src={image} alt="home" />
+          <img src={image} alt="Hajo" />
         </ColumnRight>
       </Container>
     </Section>
