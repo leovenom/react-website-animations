@@ -2,14 +2,14 @@
 	text-align: center;
 	padding: 20px 0px;
 	background-color: #fff;
-  /* height: 150px; */
+  height: 150px;
   padding: 1rem 5rem;
 	z-index: 98;
 	position: fixed;
   width: 100%;
 }
 
-.tag {
+/* .tag {
 	outline: none;
 	border: none;
 	color: #000;
@@ -23,7 +23,7 @@
 	font-weight: bold;
 	border-bottom: 1px solid #3f8fcd;
 	color: #3f8fcd;
-}
+} */
 .containerShop {
 	width: 94%;
 	margin: auto;
@@ -50,4 +50,10 @@
 	margin: 0.5rem;
 	text-align: center;
 	font-size: clamp(0.75rem, 2vw, 1rem);
+}
+
+@media screen and (max-width: 768px) {
+	.containerShop {
+		display: block;
+	}
 }
