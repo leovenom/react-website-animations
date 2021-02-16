@@ -49,7 +49,10 @@ const Section = styled.section`
     padding-top: 15rem;
   }
   @media screen and (max-width: 480px) {
-    padding-top: 22rem;
+    padding-top: 11rem;
+  }
+  @media screen and (max-width: 420px) {
+    padding-top: 11rem;
   }
 `;
 const Container = styled.div`
@@ -60,6 +63,12 @@ const Container = styled.div`
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
+  }
+  @media screen and (max-width: 480px) {
+    grid-template-rows: 1050px;
+  }
+  @media screen and (max-width: 330px) {
+    grid-template-rows: 1200px;
   }
 `;
 const Column = styled.div`
@@ -92,7 +101,7 @@ const Column = styled.div`
   padding: 1rem 2rem 0rem 2rem;
   line-height: 1.5rem;
   @media screen and (max-width: 768px) {
-      padding: 1rem 0rem 4rem 0rem;
+      padding: 1rem 0rem 1rem 0rem;
     }
   }
 `;

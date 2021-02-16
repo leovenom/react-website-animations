@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {Album}from '../data/AlbumData';
 import { SRLWrapper } from 'simple-react-lightbox';
-import '../components/Homes/Home.css';
+import '../components/Gallery/Gallery.css';
 import Footer from '../components/Footer/Footer';
 import NavbarAbout from '../components/NavbarAbout/NavbarAbout'
 import GlobalStyle from '../globalStyles';
@@ -83,7 +83,7 @@ const Gallery = () => {
       <GlobalStyle />
       <NavbarAbout toggle={toggle}/>
       <DropDown isOpen={isOpen} toggle={toggle}/>
-      <div className="tags" style={{ ...navbarStyles, top: visible ? '0' : '-60px' }}>
+      <div className="tagsGallery" style={{ ...navbarStyles, top: visible ? '0' : '-60px' }}>
 				<TagButton name="all" tagActive={tag === 'all' ? true : false} handleSetTag={setTag} /> /
 				<TagButton name="Nature" tagActive={tag === 'Nature' ? true : false} handleSetTag={setTag} /> /
 				<TagButton name="People" tagActive={tag === 'People' ? true : false} handleSetTag={setTag} /> /
@@ -91,7 +91,7 @@ const Gallery = () => {
 			</div>
       <ScrollToTop />
 			<SRLWrapper options={options}>
-				<div className="container">
+				<div className="containerGallery">
 					{filteredImages.map(Album => (
 						<div key={Album.id} className="image-card">
 							<a href={`/images/${Album.imageName}`}>
