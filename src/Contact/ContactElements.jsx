@@ -15,6 +15,9 @@ export const Container = styled.div`
     rgba( 15, 38, 92, 1) 0%,
     rgba( 113, 198, 255, 1) 100%
   );
+  @media screen and (max-width: 480px) {
+  height: 100%;
+  }
 `
 export const FormWrap = styled.div`
   height: 100%;
@@ -22,8 +25,11 @@ export const FormWrap = styled.div`
   flex-direction: column;
   justify-content: center;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
   }
 `
 export const Icon = styled(Link)`
