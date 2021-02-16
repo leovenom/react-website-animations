@@ -13,10 +13,11 @@
   font-size: 16px;
   /* color: rgb(53, 53, 53); */
   color: #000;
+  /* padding-top: 170px; */
 }
 
 .title {
-  font-size: clamp(3.5rem,6vw,6rem);
+  font-size: clamp(2.1rem,6vw,6rem);
   text-align: center;
   font-family: "Montserrat", sans-serif;
   /* margin-bottom: 80px; */
