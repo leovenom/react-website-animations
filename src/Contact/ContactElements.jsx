@@ -11,11 +11,8 @@ export const Container = styled.div`
   top: 0;
   z-index: 0;
   overflow: hidden;
-  background: linear-gradient(
-    108deg,
-    rgba( 15, 38, 92, 1) 0%,
-    rgba( 113, 198, 255, 1) 100%
-  );
+  /* background: rgb(63, 143, 205); */
+
   @media screen and (max-width: 480px) {
   height: 100%;
   }
@@ -34,15 +31,15 @@ export const Icon = styled(Link)`
   margin-left: 95px;
   margin-top: 30px;
   text-decoration: none;
-  color: #fff;
+  color: #2F2E36;
   font-size: 18px;
   font-style: italic;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 
   @media screen and (max-width: 780px) {
     justify-content: center;
     display: flex;
-    margin-top: 35px;
+    margin-top: 20px;
     margin-left: 0px;
   }
 `
@@ -57,14 +54,14 @@ export const FormContent = styled.div`
   }
 `
 export const Form = styled.form`
-  background-color: #010101;
+  background-color: #2F2E36;
   max-width: 400px;
   height: auto;
   /* width: 100%; */
   z-index: 1;
   display: grid;
   margin: 0 auto;
-  padding: 80px 32px;
+  padding: 40px 32px;
   border-radius:4px;
   box-shadow: 0 1px 3px rgba( 0, 0, 0, 0.9);
   
@@ -80,14 +77,14 @@ export const FormH1 = styled.h1`
   text-align: center;
   font-weight: 800;
   letter-spacing: 1.4px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Vollkorn', serif;
 `
 export const FormLabel = styled.label`
   margin-bottom: 8px;
   font-size: 14px;
   color: #fff;
   font-weight: 600;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 `
 export const FormInput = styled.input`
   padding: 14px 16px;
@@ -102,7 +99,7 @@ export const FormInputText = styled.textarea`
   resize: vertical;
 `
 export const FormButton = styled.button`
-  background: #71C6FF;
+  background: #1B93FA;
   padding: 16px 0;
   border: none;
   border-radius: 4px;
@@ -110,6 +107,10 @@ export const FormButton = styled.button`
   font-size: 20px;
   cursor: pointer;
   font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  &:hover {
+    transform: translateY(-2px);
+  }
 `
 export const Text = styled.span`
 text-align: center;

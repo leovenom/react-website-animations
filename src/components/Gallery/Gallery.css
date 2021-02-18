@@ -1,7 +1,7 @@
 .tagsGallery {
 	text-align: center;
 	padding: 20px 0px;
-	background-color: #fff;
+	background-color: #F5F5F5;
   /* height: 150px; */
   padding: 1rem;
 	z-index: 98;
@@ -12,7 +12,7 @@
 .tag {
 	outline: none;
 	border: none;
-	color: #000;
+	color: #2F2E36;
 	margin: 0px 10px;
 	background-color: transparent;
 	cursor: pointer;
@@ -22,8 +22,8 @@
 
 .active {
 	font-weight: bold;
-	border-bottom: 1px solid #3f8fcd;
-	color: #3f8fcd;
+	border-bottom: 1px solid #1B93FA;
+	color: #1B93FA;
 }
 .containerGallery{
 	width: 94%;

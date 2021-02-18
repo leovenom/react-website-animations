@@ -113,7 +113,7 @@ export const arrowButtons = css`
   height: 50px;
   color: #fff;
   cursor: pointer;
-  background: #000d1a;
+  background: #394D6E;
   border-radius: 50px;
   padding: 10px;
   margin-right: 1rem;
@@ -121,7 +121,7 @@ export const arrowButtons = css`
   transition: 0.3s;
 
   &:hover {
-    background: #3f8fcd;
+    background: #1B93FA;
     transform: scale(1.05);
   }
 `;
