@@ -67,7 +67,7 @@ export const Form = styled.form`
   box-shadow: 0 1px 3px rgba( 0, 0, 0, 0.9);
   
   @media screen and (max-width: 400px) {
-    padding: 11px 32px;
+    padding: 32px 32px;
   }
   `
 export const FormH1 = styled.h1`
