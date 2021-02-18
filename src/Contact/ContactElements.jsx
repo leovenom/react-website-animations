@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export const Container = styled.div`
   min-height: 692px;
   /* min-height: 560px; */
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   left: 0;
   right: 0;
@@ -30,6 +30,7 @@ export const FormWrap = styled.div`
 export const Icon = styled(Link)`
   margin-left: 95px;
   margin-top: 30px;
+  margin-bottom: 4rem;
   text-decoration: none;
   color: #2F2E36;
   font-size: 18px;
