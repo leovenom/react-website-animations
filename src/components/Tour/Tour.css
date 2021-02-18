@@ -1,25 +1,25 @@
 .hero-tour {
-  background: #3da3d5;
-  font-family: "Montserrat", sans-serif;
+  /* background: #3da3d5; */
+  font-family: 'Vollkorn', serif;
   font-size: 16px;
   /* color: rgb(53, 53, 53); */
-  color: #000;
+  color: #2F2E36;
   padding-top: 170px;
 }
 
 .hero-tour2{
   background: #3da3d5;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Vollkorn', serif;
   font-size: 16px;
   /* color: rgb(53, 53, 53); */
-  color: #000;
+  color: #2F2E36;
   /* padding-top: 170px; */
 }
 
 .title {
   font-size: clamp(2.1rem,6vw,6rem);
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Vollkorn', serif;
   /* margin-bottom: 80px; */
 }
 
@@ -71,6 +71,14 @@ h3 {
     margin: 0 auto;
     position: relative;
     padding: 7em 0 !important;
+}
+.vertical-timeline::before {
+  background: #dfdede!important;
+}
+
+/* Icon container's border */
+.vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #ebe8e8, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05)!important;
 }
 
 @media only screen and (max-width: 1700px) {

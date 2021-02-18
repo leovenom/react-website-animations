@@ -39,6 +39,7 @@ const ColumnLeft = styled.div`
   }
 `;
 const ColumnRight = styled.div`
+  color:#2F2E36;
   padding: 1rem 2rem;
   order: ${({reverse}) => (reverse ? '1' : '2')};
   display: flex;

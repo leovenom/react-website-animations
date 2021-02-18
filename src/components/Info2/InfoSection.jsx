@@ -19,6 +19,7 @@ const Container = styled.div`
   }
 `;
 const ColumnLeft = styled.div`
+  color:#2F2E36;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,7 +63,7 @@ const ColumnRight = styled.div`
   }
 `;
 const ButtonLink = styled.a`
-  background: ${({ primary }) =>  (primary ? '#000d1a' : 'CD853F')};
+  background: ${({ primary }) =>  (primary ? '#394D6E' : 'CD853F')};
   white-space: nowrap;
   outline: none;
   border: none;

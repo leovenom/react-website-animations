@@ -1,6 +1,6 @@
 import React from 'react'
 import { menuData } from '../../data/MenuData'
-import { Button } from '../Button/ButtonElements'
+import { ButtonNav } from '../Button/ButtonElements'
 import { DdContainer, Icon, DropDownWrapper, DropDownMenu, DropDownLink, BtnWrap , CloseIcon } from './DropDownElements'
 
 const DropDown = ({isOpen, toggle}) => {
@@ -18,9 +18,9 @@ const DropDown = ({isOpen, toggle}) => {
             ))}
           </DropDownMenu>
           <BtnWrap>
-            <Button primary='true' round='true' big='true' to='/contact'>
+            <ButtonNav primary='true' round='true' big='true' to='/contact'>
             Kontakt
-            </Button>
+            </ButtonNav>
           </BtnWrap>
         </DropDownWrapper>
     </DdContainer>

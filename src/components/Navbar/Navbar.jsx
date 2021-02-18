@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { Nav, Logo, MenuBars, NavMenu, NavMenuLinks, NavBtn} from './NavbarElements'
 import { menuData } from '../../data/MenuData'
-import { Button } from '../Button/ButtonElements';
+import { ButtonNav } from '../Button/ButtonElements';
 
 const Navbar = ({toggle}) => {
   const [scrollNav, setScrollNav] = useState(false)
@@ -30,7 +30,7 @@ const Navbar = ({toggle}) => {
       </NavMenu>
       
       <NavBtn>
-      <Button to='/contact' primary='true' alt="Contact us" title="Contact us">Kontakt</Button>
+      <ButtonNav to='/contact' primary='true' alt="Contact us" title="Contact us">Kontakt</ButtonNav>
       </NavBtn>
     </Nav>
   )

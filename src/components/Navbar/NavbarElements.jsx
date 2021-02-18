@@ -3,7 +3,8 @@ import {Link} from 'react-router-dom';
 import {FaBars} from 'react-icons/fa'
 
 export const Nav =  styled.nav`
-  background: ${({scrollNav}) => (scrollNav ? '#3f8fcd' : 'transparent')};
+  background: ${({scrollNav}) => (scrollNav ? '#F5F5F5' : '#F5F5F5')};
+  /* background: ${({scrollNav}) => (scrollNav ? '#F5F5F5' : 'transparent')}; */
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -20,7 +21,7 @@ export const Nav =  styled.nav`
 
 
 export const NavLink = css`
-  color: #fff;
+  color: #2F2E36;
   display: flex;
   align-items: center;
   padding: 0 1rem;
@@ -37,7 +38,7 @@ export const MenuBars = styled(FaBars)`
   
 
   @media screen and (max-width: 768px) {
-    color: #fff;
+    color: #2F2E36;
     display: block;
     background-size: contain;
     height: 50px;

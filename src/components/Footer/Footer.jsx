@@ -12,7 +12,6 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrap>
-        
         <FooterLinkContainer>
           <FooterLinkWrapper>
             <FooterLinkItems>

@@ -79,7 +79,7 @@ const Gallery = () => {
 
   return (
     <>
-      
+
       <GlobalStyle />
       <NavbarAbout toggle={toggle}/>
       <DropDown isOpen={isOpen} toggle={toggle}/>

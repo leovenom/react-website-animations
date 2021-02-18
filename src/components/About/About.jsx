@@ -19,6 +19,7 @@ const Container = styled.div`
   }
 `;
 const ColumnLeft = styled.div`
+  color:#2F2E36;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,7 +40,7 @@ const ColumnLeft = styled.div`
   }
 `;
 const ColumnRight = styled.div`
-  padding: 2rem 2rem;
+  padding: 4rem 2rem 2rem;
   order: ${({reverse}) => (reverse ? '1' : '2')};
   display: flex;
   justify-content: center;
@@ -47,7 +48,7 @@ const ColumnRight = styled.div`
 
   @media screen and (max-width: 768px) {
     order: ${({reverse}) => (reverse ? '2' : '1')};
-    padding: 5rem 0rem 0rem 0rem;
+    padding: 2rem 1.5rem 0rem 1.5rem;
   }
 
   img {
@@ -62,22 +63,76 @@ const ColumnRight = styled.div`
   }
 `;
 
-const about = ({heading, paragraphOne, paragraphTwo, paragraphThree, paragraphFour,  buttonLabel, image, reverse}) => {
+const LinkWrapper = styled.div`
+  display: flex;
+  padding: 2rem 2rem 3rem 2rem;
+  @media screen and (max-width: 820px) {
+    flex-direction: column;
+  }
+`
+
+const LinkItems = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 1rem 2rem 4rem;
+  text-align: left;
+  /* width: 400px; */
+  box-sizing: border-box;
+      color:#2F2E36;
+  /* padding: 2rem; */
+
+  @media screen and (max-width: 820px) {
+    margin: 0;
+    /* padding: 1rem 1rem; */
+    width: 100%;
+    align-items: center;
+  }
+`
+const LinkContainer = styled.div`
+  display: flex;
+  justify-content: center;
+
+  @media screen and (max-width: 820px) {
+    padding: 3rem 0 3rem;
+  }
+`
+
+const about = ({heading, paragraphOne, paragraphTwo, paragraphThree, paragraphFour, paragraphFive, paragraphSix,  buttonLabel, image, reverse}) => {
   return ( 
     <Section>
       <Container>
         <ColumnLeft reverse={reverse}>
           <h1>{heading}</h1>
           <p>{paragraphOne}</p>
-          <p>{paragraphTwo}</p>
+          {/* <p>{paragraphTwo}</p>
           <p>{paragraphThree}</p>
-          <p>{paragraphFour}</p>
+          <p>{paragraphFour}</p> */}
           {/* <Button to="/contact" primary="true">{buttonLabel}</Button> */}
         </ColumnLeft>
         <ColumnRight reverse={reverse}>
           <img src={image} alt="Hajo" />
         </ColumnRight>
       </Container>
+
+      <LinkContainer>
+          <LinkWrapper>
+            <LinkItems>
+              <p>{paragraphTwo}</p>
+              <br/>
+              <p>{paragraphThree}</p>
+              <br/>
+              <p>{paragraphFour}</p>
+            </LinkItems>
+            {/* <LinkItems>
+            <p>{paragraphFour}</p>
+            </LinkItems>
+            <LinkItems>
+            <p>{paragraphFive}</p>
+            </LinkItems> */}
+          </LinkWrapper>
+        </LinkContainer>
+
     </Section>
   )
 }

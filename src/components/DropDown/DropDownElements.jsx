@@ -7,7 +7,7 @@ export const DdContainer = styled.div`
   z-index: 999;
   width: 100%;
   height: 100%;
-  background: #3f8fcd;
+  background: #394D6E;
   display: grid;
   align-items: center;
   top: 0;
@@ -26,7 +26,7 @@ export const Icon = styled.div`
   outline: none;
 `;
 export const CloseIcon = styled(FaTimes)`
-  color: #000d1a;
+  color: #2F2E36;
 `;
 export const DropDownWrapper = styled.div`
 `;
@@ -53,7 +53,7 @@ export const DropDownLink = styled(Link)`
   transition: 0.2s ease-in-out;
 
   &:hover {
-    color: #000d1a;
+    color: #1B93FA;
   }
 `;
 export const BtnWrap = styled.div`

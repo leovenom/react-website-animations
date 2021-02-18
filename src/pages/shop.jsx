@@ -72,6 +72,7 @@ const Container = styled.div`
   }
 `;
 const Column = styled.div`
+color:#2F2E36;
   display: flex;
   flex-direction: column;
   justify-content: center;
