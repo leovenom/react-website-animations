@@ -23,16 +23,16 @@ export const FormWrap = styled.div`
   flex-direction: column;
   justify-content: center;
 
-  @media ©screen and (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     height: auto;
   }
 `
 export const Icon = styled(Link)`
   margin-left: 95px;
   margin-top: 30px;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   text-decoration: none;
-  color: #2F2E36;
+  color: #394D6E;
   font-size: 18px;
   font-style: italic;
   font-family: 'Open Sans', sans-serif;
