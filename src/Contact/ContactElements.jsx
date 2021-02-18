@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export const Container = styled.div`
   min-height: 692px;
   /* min-height: 560px; */
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   left: 0;
   right: 0;
@@ -30,8 +30,9 @@ export const FormWrap = styled.div`
 export const Icon = styled(Link)`
   margin-left: 95px;
   margin-top: 30px;
+  margin-bottom: 3rem;
   text-decoration: none;
-  color: #2F2E36;
+  color: #394D6E;
   font-size: 18px;
   font-style: italic;
   font-family: 'Open Sans', sans-serif;
@@ -66,7 +67,8 @@ export const Form = styled.form`
   box-shadow: 0 1px 3px rgba( 0, 0, 0, 0.9);
   
   @media screen and (max-width: 400px) {
-    padding: 11px 32px;
+    padding: 32px 32px;
+  }
   `
 export const FormH1 = styled.h1`
   margin-bottom: 40px;

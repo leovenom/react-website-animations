@@ -38,7 +38,7 @@ export const MenuBars = styled(FaBars)`
   
 
   @media screen and (max-width: 768px) {
-    color: #fff;
+    color: #2F2E36;
     display: block;
     background-size: contain;
     height: 50px;
