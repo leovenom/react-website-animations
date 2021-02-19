@@ -28,12 +28,12 @@ export const FormWrap = styled.div`
   }
 `
 export const Icon = styled(Link)`
-  margin-left: 95px;
-  margin-top: 30px;
+  margin-left: 90px;
+  margin-top: 18px;
   margin-bottom: 3rem;
   text-decoration: none;
   color: #394D6E;
-  font-size: 18px;
+  font-size: 24px;
   font-style: italic;
   font-family: 'Open Sans', sans-serif;
 
@@ -55,7 +55,7 @@ export const FormContent = styled.div`
   }
 `
 export const Form = styled.form`
-  background-color: #2F2E36;
+  background-color: #394D6E;
   max-width: 400px;
   height: auto;
   /* width: 100%; */

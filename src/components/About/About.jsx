@@ -24,7 +24,7 @@ const ColumnLeft = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 2rem 6rem;
+  padding: 2rem 0rem 0rem 5rem;
   order: ${({reverse}) => (reverse ? '2' : '1')};
 
   @media screen and (max-width: 768px) {
@@ -33,10 +33,12 @@ const ColumnLeft = styled.div`
 
   h1 {
     margin-bottom: 1rem;
-    font-size: clamp(1.5rem, 6vw, 2rem);
+    font-size: clamp(2rem,5vw,4.3rem);
   }
   p {
     margin-bottom: 2rem;
+    max-width: 600px;
+    font-size: clamp(1.2rem,1.6vw,1.6rem);
   }
 `;
 const ColumnRight = styled.div`
@@ -75,11 +77,12 @@ const LinkItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2rem 1rem 2rem 4rem;
+  margin: 2rem 1rem 2rem 3rem;
   text-align: left;
-  /* width: 400px; */
+  max-width: 800px;
   box-sizing: border-box;
       color:#2F2E36;
+      font-size: clamp(1.2rem,1.6vw,1.4rem);
   /* padding: 2rem; */
 
   @media screen and (max-width: 820px) {

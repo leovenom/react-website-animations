@@ -7,7 +7,7 @@ export const HeroSection = styled.section`
   max-height: 1100px;
   position: relative;
   overflow: hidden;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 `;
 export const HeroWrapper = styled.div`
   width: 100%;
@@ -73,20 +73,24 @@ export const HeroContent = styled.div`
   
 
   h1 {
-    font-size: clamp(1rem, 8vw, 2.5rem);
+    font-size: clamp(2rem, 7vw, 5rem);
     font-weight: 400;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-shadow: 0px 0px 20px rgba(0,0,0,0.4);
     text-align:left;
     margin-bottom: 0.8rem;
+    max-width: 500px;
+    font-weight: 600;
   }
   h2 {
-    font-size: clamp(0.8rem, 8vw, 1rem);
+    /* font-size: clamp(0.8rem, 8vw, 1rem); */
+    font-size: clamp(1rem, 4vw, 1.5rem);
     font-weight: 400;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-shadow: 0px 0px 20px rgba(0,0,0,0.4);
     text-align:left;
     margin-bottom: 0.8rem;
+    max-width:600px;
   }
   p {
     margin-bottom: 1.2rem;
@@ -121,7 +125,7 @@ export const arrowButtons = css`
   transition: 0.3s;
 
   &:hover {
-    background: #1B93FA;
+    background: #6B7EA2;
     transform: scale(1.05);
   }
 `;

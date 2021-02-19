@@ -19,7 +19,7 @@ const Navbar = ({toggle}) => {
   
   return (
     <Nav scrollNav={scrollNav}>
-      <Logo to='/' alt="Logo" title="Logo">HAJO</Logo>
+      <Logo to='/' alt="Logo" title="Logo">LAUENSTEIN</Logo>
       <MenuBars onClick={toggle}/>
       <NavMenu>
         {menuData.map((item, index) => (
