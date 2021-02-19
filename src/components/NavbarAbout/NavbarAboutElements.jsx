@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import {FaBars} from 'react-icons/fa'
 
 export const Nav =  styled.nav`
-  background: ${({scrollNav}) => (scrollNav ? '#F5F5F5' : 'F5F5F5')};
+  background: ${({scrollNav}) => (scrollNav ? '#FFF' : 'F5F5F5')};
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -32,6 +32,7 @@ export const NavLink = css`
 export const Logo = styled(Link)`
   ${NavLink}
   font-style: italic;
+  font-size: 25px;
 `;
 export const MenuBars = styled(FaBars)`
   display: none;

@@ -17,6 +17,8 @@ export const Button = styled(Link)`
   padding: ${({big}) => (big ? '16px 40px' :  '14px 24px')};
   color: ${({primary}) => (primary ? '#fff' :  '#394D6E')};
   font-size: ${({big}) => (big ? '20px' :  '14px')};
+  text-transform: uppercase;
+  letter-spacing: 1px;
 
   &:hover {
     transform: translateY(-2px);
@@ -38,6 +40,8 @@ export const ButtonNav = styled(Link)`
   padding: ${({big}) => (big ? '16px 40px' :  '14px 24px')};
   color: ${({primary}) => (primary ? '#fff' :  '#394D6E')};
   font-size: ${({big}) => (big ? '20px' :  '14px')};
+  text-transform: uppercase;
+  letter-spacing: 1px;
 
   &:hover {
     transform: translateY(-2px);

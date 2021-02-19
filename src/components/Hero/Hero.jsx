@@ -1,10 +1,10 @@
 import React, {useState, useRef} from 'react'
-// import { Button } from '../Button/ButtonElements'
-import { HeroSection, HeroWrapper, HeroSlide, HeroSlider, HeroImage, HeroContent, SliderButtons, PrevArrow, NextArrow } from './HeroElements'
+import { Button } from '../Button/ButtonElements'
+import { HeroSection, HeroWrapper, HeroSlide, HeroSlider, HeroImage, HeroContent, SliderButtons, PrevArrow, NextArrow, Arrow } from './HeroElements'
 //Arrow
 
-
 const Hero = ({slides}) => {
+
   const [current, setCurrent] = useState(0)
   const length = slides.length
   const timeOut = useRef(null)
@@ -53,8 +53,8 @@ const Hero = ({slides}) => {
                       <h1>{slide.title}</h1>
                       <h2>{slide.subtitle}</h2>
                       <p>{slide.price}</p>
-                      {/* <Button
-                        to={slide.path} 
+                      <Button
+                        to={slide.path}
                         primary='true'
                         css={`max-width: 160px;`}
                         alt="Buy now" 
@@ -62,7 +62,7 @@ const Hero = ({slides}) => {
                       >
                         {slide.label}
                         <Arrow />
-                      </Button> */}
+                      </Button>
                     </HeroContent>
                 </HeroSlider>
               )}

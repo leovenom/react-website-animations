@@ -20,7 +20,7 @@ const SignIn = () => {
     <>
       <Container>
         <FormWrap>
-          <Icon to='/'>HAJO</Icon>
+          <Icon to='/'>LAUENSTEIN</Icon>
           <FormContent>
             <Form onSubmit={sendEmail}>
               <FormH1>Ich freue mich über Ihre Nachricht</FormH1>

@@ -17,7 +17,7 @@
 }
 
 .title {
-  font-size: clamp(2.1rem,6vw,5rem);
+  font-size: clamp(2.1rem,6vw,4rem);
   text-align: center;
   font-family: 'Vollkorn', serif;
   /* margin-bottom: 80px; */
@@ -46,7 +46,7 @@ h3 {
   border-radius: 5px;
   color: white;
 }
-
+/* 
 .workButton {
   background-color: #06d6a0;
 }
@@ -61,7 +61,7 @@ h3 {
 
 .schoolButton:hover {
   background-color: #f3bc3c;
-}
+} */
 
 
 
