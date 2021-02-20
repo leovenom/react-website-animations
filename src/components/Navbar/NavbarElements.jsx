@@ -55,7 +55,7 @@ export const MenuBars = styled(FaBars)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin-right: 30px;
+  margin-right: 37px;
 
   @media screen and (max-width: 768px) {
     display: none;

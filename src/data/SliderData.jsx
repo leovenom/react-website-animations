@@ -1,28 +1,30 @@
 import ImageOne from '../images/ImageOne.jpg'
-import ImageTwo from '../images/pictures/Eishohle1.jpg'
+import ImageTwo from '../images/1.jpg'
 // import ImageThree from '../images/ImageThree.jpg'
 // import ImageFour from '../images/ImageFour.jpg'
-import ImageFive from '../images/ImageFive.jpg'
-import ImageSix from '../images/ImageSix.jpg'
+// import ImageFive from '../images/ImageFive.jpg'
+// import ImageSix from '../images/ImageSix.jpg'
+import ImageSeven from '../images/Alpenquerung_auf_der_E5.jpg'
+import ImageEight from '../images/Rio_Negro:Brasilien.jpg'
 
 
 export const SliderData = [
   {
-    title: 'Reiseleitung',
+    title: 'Tourismus Dienstleistungen',
     subtitle:'Reisebegleitung und Kreuzfahrten: weltweit, Reiseleitung: Südamerika, Nordeuropa und Sonstige.',
     // price: '€90,00',
     path: '/Tour',
-    label: 'See more',
-    image: ImageFive,
-    alt: 'See more'
+    label: 'Mehr erfahren',
+    image: ImageSeven,
+    alt: 'Mehr erfahren sehen'
   },
   {
     title: 'Vorträge',
     subtitle:'Südamerika, Mittelamerika, Karibik, Antarktis und Subantarktis, Europa und Allgemeine Themen.',
     // price: '€90,00',
     path: "/video",
-    label: 'Video',
-    image: ImageOne,
+    label: 'Video ansehen',
+    image: ImageEight,
     alt: 'Video'
   },
   {
@@ -31,7 +33,7 @@ export const SliderData = [
     // price: '€130,00',
     path: '/contact',
     label: 'Kontact',
-    image: ImageSix,
+    image: ImageOne,
     alt: 'Kontact'
   },
   {

@@ -50,6 +50,7 @@ export const FooterLinkItems = styled.div`
 export const FooterLinkTitle = styled.h1`
   font-size: 14px;
   margin-bottom: 16px;
+  font-family: 'Open Sans', sans-serif;
 `
 export const FooterLink = styled(Link)`
   color: #fff;
@@ -84,7 +85,7 @@ export const FooterLinkEmail = styled.a`
 `
 export const SocialMedia = styled.section`
   max-width: 1000px;
-  width: 100%;
+  /* width: 100%; */
 `
 
 export const SocialMediaWrap = styled.div`

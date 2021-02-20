@@ -16,8 +16,8 @@
 	margin: 0px 10px;
 	background-color: transparent;
 	cursor: pointer;
-	margin-top: 90px;
-	font-size: clamp(0.5rem,2.5vw, 0.8rem);
+	margin-top: 80px;
+	font-size: clamp(0.5rem,2.5vw, 0.9rem);
 }
 
 .active {
