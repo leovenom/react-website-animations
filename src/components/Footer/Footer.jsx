@@ -1,42 +1,43 @@
 import React from 'react'
 // FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube, SocialIconLink, SocialIcons,
 import { FaWhatsapp } from 'react-icons/fa'
-import { FooterContainer, FooterWrap, FooterLinkWrapper, FooterLinkItems, FooterLinkContainer, FooterLinkTitle, FooterLink, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights, FooterLinkEmail } from './FooterElements'
-import { animateScroll as scroll } from 'react-scroll';
+import { FooterContainer, FooterWrap, FooterLinkWrapper, FooterLinkItems, FooterLinkContainer, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, WebsiteRights, FooterLinkEmail } from './FooterElements'
+// import { animateScroll as scroll } from 'react-scroll'; SocialLogo
 
 const Footer = () => {
-  const toggleHome = () => {
-    scroll.scrollToTop();
-  }
+  // const toggleHome = () => {
+  //   scroll.scrollToTop();
+  // }
 
   return (
     <FooterContainer>
       <FooterWrap>
         <FooterLinkContainer>
           <FooterLinkWrapper>
-            <FooterLinkItems>
-              <FooterLinkTitle>Hajo</FooterLinkTitle>
+            {/* <FooterLinkItems>
+              <FooterLinkTitle>Lauenstein</FooterLinkTitle>
                 <FooterLink to='/about'>About</FooterLink>
                 <FooterLink to='/Gallery'>Gallery</FooterLink>
                 <FooterLink to='/Tour'>Tour</FooterLink>
                 <FooterLink to='/shop'>Shop</FooterLink>
-                {/* <FooterLink to='/'>Terms of Service</FooterLink> */}
-            </FooterLinkItems>
+                <FooterLink to='/video'>Video</FooterLink> 
+                <FooterLink to='/'>Terms of Service</FooterLink>
+            </FooterLinkItems> */}
             <FooterLinkItems>
               <FooterLinkTitle>Kontakt</FooterLinkTitle>
-                <FooterLinkEmail href='https://wa.link/3t4h4q' target='_blank' >WhatsApp <FaWhatsapp /> </FooterLinkEmail>
-                <FooterLink to='/'>+49 04121 7885496</FooterLink>
-                <FooterLink to='/'>+49 0176 6345 5632</FooterLink>
-                <FooterLinkEmail href={`mailto:hajo.lauenstein@t-online.de`}>hajo.lauenstein@t-online.de</FooterLinkEmail>
+              <FooterLinkEmail href={`mailto:hajo.lauenstein@t-online.de`}>hajo.lauenstein@t-online.de</FooterLinkEmail>
+              <FooterLink to='/'>+49 04121 7885496</FooterLink>
+              <FooterLinkEmail href='https://wa.link/3t4h4q' target='_blank' >WhatsApp <FaWhatsapp /> </FooterLinkEmail>
+                {/* <FooterLink to='/'>+49 0176 6345 5632</FooterLink> */}
             </FooterLinkItems>
-            <FooterLinkItems>
+            {/* <FooterLinkItems>
               <FooterLinkTitle>Videos</FooterLinkTitle>
               <FooterLink to='/video'>Video</FooterLink> 
-                {/* <FooterLinkEmail href='//www.youtube.com/watch?v=2n6fxQqmwgE' target='_blank' title="Mystische Eiswelten Antarktis">Video</FooterLinkEmail> */}
-                {/* <FooterLink to='/'>Ambassadors</FooterLink>
+                <FooterLinkEmail href='//www.youtube.com/watch?v=2n6fxQqmwgE' target='_blank' title="Mystische Eiswelten Antarktis">Video</FooterLinkEmail>
+                <FooterLink to='/'>Ambassadors</FooterLink>
                 <FooterLink to='/'>Agency</FooterLink>
-                <FooterLink to='/'>Influencer</FooterLink> */}
-            </FooterLinkItems>
+                <FooterLink to='/'>Influencer</FooterLink>
+            </FooterLinkItems> */}
           </FooterLinkWrapper>
 
           {/* <FooterLinkWrapper>
@@ -47,21 +48,21 @@ const Footer = () => {
                 <FooterLink to='/'>Agency</FooterLink>
                 <FooterLink to='/'>Influencer</FooterLink>
             </FooterLinkItems>
-            <FooterLinkItems>
+            <FooterLinkIt>
               <FooterLinkTitle>Social Media</FooterLinkTitle>
                 <FooterLink to='/'>Instagram</FooterLink>
                 <FooterLink to='/'>Facebook</FooterLink>
                 <FooterLink to='/'>Youtube</FooterLink>
                 <FooterLink to='/'>Twitter</FooterLink>
-            </FooterLinkItems>
+            </FooterLinkIt
           </FooterLinkWrapper> */}
         </FooterLinkContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to='/' onClick={toggleHome}>
-              Hajo
-            </SocialLogo>
-            <WebsiteRights>Hajo © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+            {/* <SocialLogo to='/' onClick={toggleHome}>
+            LAUENSTEIN
+            </SocialLogo> */}
+            <WebsiteRights>Lauenstein © {new Date().getFullYear()} All rights reserved</WebsiteRights>
             {/* <SocialIcons>
               <SocialIconLink href='/' target='_blank' arial-label='Facebook'>
                 <FaFacebook />

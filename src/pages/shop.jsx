@@ -46,14 +46,14 @@ const Section = styled.section`
   height: 100%;
   padding: 5rem 0rem 0rem;
   @media screen and (max-width: 680px) {
-    padding-top: 15rem;
+    padding-top: 9rem;
   }
-  @media screen and (max-width: 480px) {
+  /* @media screen and (max-width: 480px) {
+    padding-top: 10rem;
+  } */
+  /* @media screen and (max-width: 420px) {
     padding-top: 11rem;
-  }
-  @media screen and (max-width: 420px) {
-    padding-top: 11rem;
-  }
+  } */
 `;
 const Container = styled.div`
   padding: 3rem calc(100vw - 1300px) /2;
@@ -82,16 +82,20 @@ color:#2F2E36;
 
   h1 {
     margin-bottom: 1rem;
-    font-size: clamp(3.5rem, 8vw, 8rem);
+    margin-top: 2rem;
+    /* font-size: clamp(3.5rem, 8vw, 8rem); */
+    font-size: clamp(2.1rem,6vw,5rem);
   }
   h2{
     margin-bottom: 1rem;
+    font-size: clamp(1.2rem, 3vw, 3rem);
   }
   p {
     margin-bottom: 2rem;
     text-align: center;
-    font-size: clamp(1.5rem, 1.8vw, 1.8rem);
+    font-size: clamp(1.2rem, 1.8vw, 1.8rem);
     padding: 1rem 2rem 0px 2rem;
+    max-width: 1151px;
     
     @media screen and (max-width: 768px) {
       padding: 1rem 0rem 0rem 0rem;
@@ -124,8 +128,10 @@ const Shop = () => {
       <Section>
       <Container>
         <Column>
-          <h1>Eiskunst</h1>
-          <h2>Online Ausstellung</h2>
+        <h1>Online Ausstellung</h1>
+          <h2>Eiskunst</h2>
+          {/* <h1>Eiskunst</h1>
+          <h2>Online Ausstellung</h2> */}
           <p>Die Verwandlung von Schnee zu Eis, zu Wasser, Wolken und wieder zu Schnee. 
             Ein ewiger Kreislauf von geradezu mystischer Ästhetik. Eine vergletscherte, 
             unwirkliche Eislandschaft. In den Polarmeeren treibende gigantische und gleichzeitig filigrane Eisberge. 

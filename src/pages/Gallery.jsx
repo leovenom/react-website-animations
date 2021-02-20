@@ -85,9 +85,12 @@ const Gallery = () => {
       <DropDown isOpen={isOpen} toggle={toggle}/>
       <div className="tagsGallery" style={{ ...navbarStyles, top: visible ? '0' : '-60px' }}>
 				{/* <TagButton name="all" tagActive={tag === 'all' ? true : false} handleSetTag={setTag} /> / */}
-				<TagButton name="Nature" tagActive={tag === 'Nature' ? true : false} handleSetTag={setTag} /> /
+				{/* <TagButton name="Nature" tagActive={tag === 'Nature' ? true : false} handleSetTag={setTag} /> /
 				<TagButton name="People" tagActive={tag === 'People' ? true : false} handleSetTag={setTag} /> /
-        <TagButton name="Landscape" tagActive={tag === 'Landscape' ? true : false} handleSetTag={setTag} />
+        <TagButton name="Landscape" tagActive={tag === 'Landscape' ? true : false} handleSetTag={setTag} /> */}
+        <TagButton name="Natur" tagActive={tag === 'Natur' ? true : false} handleSetTag={setTag} /> /
+				<TagButton name="Kultur" tagActive={tag === 'Kultur' ? true : false} handleSetTag={setTag} /> /
+        <TagButton name="Landschaft" tagActive={tag === 'Landschaft' ? true : false} handleSetTag={setTag} />
 			</div>
       <ScrollToTop />
 			<SRLWrapper options={options}>

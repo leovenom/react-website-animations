@@ -9,7 +9,8 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Open Sans', sans-serif;
   }
   h1 {
-    font-family: 'Vollkorn', serif;
+    /* font-family: 'Vollkorn', serif; */
+    font-family: 'Open Sans', sans-serif;
   }
 
   html, body {

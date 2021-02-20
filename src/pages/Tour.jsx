@@ -29,7 +29,7 @@ const Tour = () => {
       <DropDown isOpen={isOpen} toggle={toggle}/>
       <NavbarAbout toggle={toggle}/>
       <div className="hero-tour">
-        <h1 className="title">Reisebegleitung: Weltweit</h1>
+        <h1 className="title">Reisebegleitung</h1>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"

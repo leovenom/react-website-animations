@@ -55,7 +55,7 @@ export const FormContent = styled.div`
   }
 `
 export const Form = styled.form`
-  background-color: #394D6E;
+  /* background-color: #394D6E; */
   max-width: 400px;
   height: auto;
   /* width: 100%; */
@@ -63,39 +63,38 @@ export const Form = styled.form`
   display: grid;
   margin: 0 auto;
   padding: 40px 32px;
-  border-radius:4px;
-  box-shadow: 0 1px 3px rgba( 0, 0, 0, 0.9);
+  /* border-radius:4px;
+  box-shadow: 0 1px 3px rgba( 0, 0, 0, 0.9); */
   
   @media screen and (max-width: 400px) {
     padding: 32px 32px;
   }
   `
 export const FormH1 = styled.h1`
-  margin-bottom: 40px;
-  color: #fff;
-  font-size: 19px;
-  font-weight: 400;
-  text-align: center;
+  margin-bottom: 20px;
+  color: #2F2E36;
+  font-size: 28px;
+  text-align: left;
   font-weight: 800;
-  letter-spacing: 1.4px;
-  font-family: 'Vollkorn', serif;
+  /* letter-spacing: 1.4px; */
+  font-family: 'Open Sans', sans-serif;
 `
 export const FormLabel = styled.label`
   margin-bottom: 8px;
   font-size: 14px;
-  color: #fff;
-  font-weight: 600;
+  color: #2F2E36;
+  /* font-weight: 600; */
   font-family: 'Open Sans', sans-serif;
 `
 export const FormInput = styled.input`
   padding: 14px 16px;
   margin-bottom: 28px;
-  border-radius: 4px;
+  /* border-radius: 4px; */
 `
 export const FormInputText = styled.textarea`
   padding: 16px 16px;
   margin-bottom: 32px;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   max-height: 250px;
   resize: vertical;
 `
@@ -103,12 +102,14 @@ export const FormButton = styled.button`
   background: #1B93FA;
   padding: 16px 0;
   border: none;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   color: #fff;
-  font-size: 20px;
+  font-size: 14px;
   cursor: pointer;
-  font-weight: 600;
+  /* font-weight: 600; */
+  text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
+  max-width: 200px;
   &:hover {
     transform: translateY(-2px);
   }

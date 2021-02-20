@@ -59,8 +59,8 @@ const Hero = ({slides}) => {
                         to={slide.path}
                         primary='true'
                         css={`max-width: 160px;`}
-                        alt="Buy now" 
-                        title="Buy now"
+                        alt="Button" 
+                        title="button"
                       >
                         {slide.label}
                         <Arrow />

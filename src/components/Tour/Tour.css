@@ -1,6 +1,6 @@
 .hero-tour {
   /* background: #3da3d5; */
-  font-family: 'Vollkorn', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   /* color: rgb(53, 53, 53); */
   color: #2F2E36;
@@ -9,7 +9,7 @@
 
 .hero-tour2{
   background: #3da3d5;
-  font-family: 'Vollkorn', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   /* color: rgb(53, 53, 53); */
   color: #2F2E36;
@@ -17,9 +17,10 @@
 }
 
 .title {
-  font-size: clamp(2.1rem,6vw,4rem);
+  /* font-size: clamp(2.1rem,6vw,4rem); */
+  font-size: clamp(2.1rem,6vw,5rem);
   text-align: center;
-  font-family: 'Vollkorn', serif;
+  font-family: 'Open Sans', sans-serif;
   /* margin-bottom: 80px; */
 }
 

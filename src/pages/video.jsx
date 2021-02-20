@@ -38,7 +38,8 @@ const Video = () => {
           width: "100%",
           height: "91%"          
         }}
-        src='https://www.youtube.com/embed/2n6fxQqmwgE?autoplay=1'
+        // src='https://www.youtube.com/embed/2n6fxQqmwgE?autoplay=1&'
+        src="https://spark.adobe.com/video/nle6VfGpS8YWI/embed"
         // src={`https://www.youtube.com/embed/${youtubeId}`}
         frameborder='0'
         title='Mystische Eiswelten Antarktis'      
@@ -49,4 +50,3 @@ const Video = () => {
   )
 }
 export default Video
-// https://www.youtube.com/watch?v=2n6fxQqmwgEyarn add react-video-renderer

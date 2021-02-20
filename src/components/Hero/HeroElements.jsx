@@ -76,7 +76,7 @@ export const HeroContent = styled.div`
     font-size: clamp(2rem, 7vw, 5rem);
     font-weight: 400;
     /* text-transform: uppercase; */
-    text-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    /* text-shadow: 0px 0px 20px rgba(0,0,0,0.4); */
     text-align:left;
     margin-bottom: 0.8rem;
     max-width: 500px;
@@ -84,17 +84,17 @@ export const HeroContent = styled.div`
   }
   h2 {
     /* font-size: clamp(0.8rem, 8vw, 1rem); */
-    font-size: clamp(1rem, 4vw, 1.5rem);
+    font-size: clamp(1rem, 2vw, 1.5rem);
     font-weight: 400;
     /* text-transform: uppercase; */
-    text-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    /* text-shadow: 0px 0px 20px rgba(0,0,0,0.4); */
     text-align:left;
     margin-bottom: 0.8rem;
     max-width:600px;
   }
   p {
     margin-bottom: 1.2rem;
-    text-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    /* text-shadow: 0px 0px 20px rgba(0,0,0,0.4); */
   }
 
 `;
