@@ -31,7 +31,8 @@ const Footer = () => {
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Videos</FooterLinkTitle>
-                <FooterLinkEmail href='//www.youtube.com/watch?v=2n6fxQqmwgE' target='_blank' title="Mystische Eiswelten Antarktis">Video</FooterLinkEmail>
+              <FooterLink to='/video'>Video</FooterLink> 
+                {/* <FooterLinkEmail href='//www.youtube.com/watch?v=2n6fxQqmwgE' target='_blank' title="Mystische Eiswelten Antarktis">Video</FooterLinkEmail> */}
                 {/* <FooterLink to='/'>Ambassadors</FooterLink>
                 <FooterLink to='/'>Agency</FooterLink>
                 <FooterLink to='/'>Influencer</FooterLink> */}

@@ -40,7 +40,7 @@ export const MenuBars = styled(FaBars)`
   
 
   @media screen and (max-width: 768px) {
-    color: #2F2E36;
+    color: #F5F5F5;
     display: block;
     background-size: contain;
     height: 50px;
@@ -55,7 +55,7 @@ export const MenuBars = styled(FaBars)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin-right: -48px;
+  margin-right: 30px;
 
   @media screen and (max-width: 768px) {
     display: none;

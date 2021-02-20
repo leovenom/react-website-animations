@@ -5,6 +5,7 @@ import About from './pages/about';
 import Gallery from './pages/Gallery';
 import Tour from './pages/Tour';
 import Shop from './pages/shop';
+import video from './pages/video';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/Gallery' component={Gallery} />
         <Route path='/Tour' component={Tour} />
         <Route path='/shop' component={Shop} />
+        <Route path='/video' component={video} />
       </Switch>
     </Router>
   );
