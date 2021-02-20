@@ -84,11 +84,11 @@ color:#2F2E36;
     margin-bottom: 1rem;
     margin-top: 2rem;
     /* font-size: clamp(3.5rem, 8vw, 8rem); */
-    font-size: clamp(2.1rem,6vw,5rem);
+    font-size: clamp(1.4rem,6vw,5rem);
   }
   h2{
     margin-bottom: 1rem;
-    font-size: clamp(1.2rem, 3vw, 3rem);
+    font-size: clamp(1.1rem, 3vw, 3rem);
   }
   p {
     margin-bottom: 2rem;
