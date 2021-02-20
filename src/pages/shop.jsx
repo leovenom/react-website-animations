@@ -46,7 +46,7 @@ const Section = styled.section`
   height: 100%;
   padding: 5rem 0rem 0rem;
   @media screen and (max-width: 680px) {
-    padding-top: 9rem;
+    padding: 3rem 0rem 0rem;
   }
   /* @media screen and (max-width: 480px) {
     padding-top: 10rem;
