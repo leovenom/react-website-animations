@@ -20,7 +20,7 @@ export const SliderData = [
     title: 'Vorträge',
     subtitle:'Südamerika, Mittelamerika, Karibik, Antarktis und Subantarktis, Europa und Allgemeine Themen.',
     // price: '€90,00',
-    path: '#',
+    path: "/video",
     label: 'Video',
     image: ImageOne,
     alt: 'Video'

@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import {FaBars} from 'react-icons/fa'
 
 export const Nav =  styled.nav`
-  background: ${({scrollNav}) => (scrollNav ? '#FFF' : 'F5F5F5')};
+  background: ${({scrollNav}) => (scrollNav ? '#FFF' : '#fff')};
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -54,7 +54,7 @@ export const MenuBars = styled(FaBars)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin-right: -48px;
+  margin-right: 30px;
 
   @media screen and (max-width: 768px) {
     display: none;

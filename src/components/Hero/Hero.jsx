@@ -23,6 +23,8 @@ const Hero = ({slides}) => {
   // }, [current, length])
 
   const nextSlide = () =>  {
+
+
     if(timeOut.current) {
       clearTimeout(timeOut.current)
     }
