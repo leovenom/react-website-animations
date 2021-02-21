@@ -26,9 +26,8 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>Kontakt</FooterLinkTitle>
               <FooterLinkEmail href={`mailto:hajo.lauenstein@t-online.de`}>hajo.lauenstein@t-online.de</FooterLinkEmail>
-              <FooterLink to='/'>+49 04121 7885496</FooterLink>
+              <FooterLink to='/'>+49 0176 6345 5632</FooterLink>
               <FooterLinkEmail href='https://wa.link/3t4h4q' target='_blank' >WhatsApp <FaWhatsapp /> </FooterLinkEmail>
-                {/* <FooterLink to='/'>+49 0176 6345 5632</FooterLink> */}
             </FooterLinkItems>
             {/* <FooterLinkItems>
               <FooterLinkTitle>Videos</FooterLinkTitle>

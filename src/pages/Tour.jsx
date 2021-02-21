@@ -67,7 +67,7 @@ const Tour = () => {
           <h3 className="vertical-timeline-element-title">Sonstige</h3>
           {/* <h4 className="vertical-timeline-element-subtitle"></h4> */}
           <p>
-          Marokko, Portugal, Spanien, Schweiz, Deutschland, Madagaskar, Arktis, Antarktis, Karibik
+          Arktis, Antarktis, Südsee, Karibik, Namibia, Marokko, Usbekistan, Jordanien, Madagaskar, Portugal, Spanien, Makronesische Inseln.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement

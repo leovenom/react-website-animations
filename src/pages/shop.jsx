@@ -138,7 +138,7 @@ const Shop = () => {
             Gestrandete und schmelzende Edelsteine oder Skulpturen aus Eis. 
             Eine Welt von erhabener Schönheit mit sich ständig wandelnden Farb-, Licht- und Struktureffekten. 
             Ein Versuch, die Faszination dieser fast außerirdisch anmutenden Szenerie in Bildern zu erfassen.</p>
-          <p>Die Preise gelten für Selbstabholer, alle fotos sind in Alu-Dibond mit Galerie Schiene.
+          <p>Die Preise gelten für Selbstabholer, alle Bilder auf Alu-Dibond mit Galerieschiene.
           <br/>
           Zusendung auf Anfrage über: <FooterLink2 href={`mailto:hajo.lauenstein@t-online.de`}>hajo.lauenstein@t-online.de</FooterLink2> oder <Button2 to='/contact' alt="Contact us" title="Contact us">kontact</Button2></p>
         </Column>

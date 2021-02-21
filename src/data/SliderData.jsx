@@ -29,7 +29,7 @@ export const SliderData = [
   },
   {
     title: 'Beratung',
-    subtitle:'Korrekturen von Vorträgen, Präsentationen und Sendungen, Erstellen von Spezial-Vorträgen.',
+    subtitle:'Korrekturen von Vorträgen, Präsentationen und Sendungen, erstellen von Spezial-Vorträgen.',
     // price: '€130,00',
     path: '/contact',
     label: 'Kontact',
@@ -38,7 +38,7 @@ export const SliderData = [
   },
   {
     title: 'Scouting',
-    subtitle:'Erkunden und Bewerten von touristischen Zielen: Landschaft, Natur, Kultur, Hotels und Restaurants.',
+    subtitle:'Erkunden und bewerten von touristischen Zielen: Landschaft, Natur, Kultur, Hotels und Restaurants.',
     // price: '€130,00',
     path: '/contact',
     label: 'Kontact',

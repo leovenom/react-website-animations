@@ -25,11 +25,11 @@ const SignIn = () => {
             <Form onSubmit={sendEmail}>
               <FormH1>Ich freue mich über Ihre Nachricht</FormH1>
               <FormLabel htmlFor='for'>Name:</FormLabel>
-                <FormInput htmlFor='nome' name='user_nome' placeholder="Your name" required />
+                <FormInput htmlFor='nome' name='user_nome' placeholder="Ihr Name" required />
               <FormLabel htmlFor='for'>E-Mail:</FormLabel>
-                <FormInput htmlFor='email' type='email' name='user_email' placeholder="contact@email.com" required />
+                <FormInput htmlFor='email' type='email' name='user_email' placeholder="kontakt@email.com" required />
               <FormLabel htmlFor='for'>Nachricht:</FormLabel>
-                <FormInputText htmlFor='mensagem' name="user_message" placeholder="Your messagem here" required />
+                <FormInputText htmlFor='mensagem' name="user_message" placeholder="" required />
               <FormButton type='submit' value='send'>Absenden</FormButton>
             </Form>
           </FormContent>
