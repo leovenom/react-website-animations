@@ -9,7 +9,7 @@ const SignIn = () => {
 
     emailjs.sendForm('service_3t552xh', 'template_pxi9lbh', e.target, 'user_12T6PVF5oIb4Wm6EGuEhu')
     .then((result) => {
-      alert('E-mail enviado com sucesso.', result.status, result.text);
+      alert('Vielen Dank, ihre Mail wurde erfolgreich versendet!', result.status, result.text);
   }, (error) => {
       console.log(error.text);
   });
