@@ -46,7 +46,7 @@ const Section = styled.section`
   height: 100%;
   padding: 5rem 0rem 0rem;
   @media screen and (max-width: 680px) {
-    padding-top: 9rem;
+    padding: 3rem 0rem 0rem;
   }
   /* @media screen and (max-width: 480px) {
     padding-top: 10rem;
@@ -84,11 +84,11 @@ color:#2F2E36;
     margin-bottom: 1rem;
     margin-top: 2rem;
     /* font-size: clamp(3.5rem, 8vw, 8rem); */
-    font-size: clamp(2.1rem,6vw,5rem);
+    font-size: clamp(1.4rem,6vw,5rem);
   }
   h2{
     margin-bottom: 1rem;
-    font-size: clamp(1.2rem, 3vw, 3rem);
+    font-size: clamp(1.1rem, 3vw, 3rem);
   }
   p {
     margin-bottom: 2rem;
@@ -138,7 +138,7 @@ const Shop = () => {
             Gestrandete und schmelzende Edelsteine oder Skulpturen aus Eis. 
             Eine Welt von erhabener Schönheit mit sich ständig wandelnden Farb-, Licht- und Struktureffekten. 
             Ein Versuch, die Faszination dieser fast außerirdisch anmutenden Szenerie in Bildern zu erfassen.</p>
-          <p>Die Preise gelten für Selbstabholer, alle fotos sind in Alu-Dibond mit Galerie Schiene.
+          <p>Die Preise gelten für Selbstabholer, alle Bilder auf Alu-Dibond mit Galerieschiene.
           <br/>
           Zusendung auf Anfrage über: <FooterLink2 href={`mailto:hajo.lauenstein@t-online.de`}>hajo.lauenstein@t-online.de</FooterLink2> oder <Button2 to='/contact' alt="Contact us" title="Contact us">kontact</Button2></p>
         </Column>
