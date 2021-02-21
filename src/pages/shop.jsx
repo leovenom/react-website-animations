@@ -3,9 +3,7 @@ import Footer from '../components/Footer/Footer';
 import NavbarAbout from '../components/NavbarAbout/NavbarAbout'
 import GlobalStyle from '../globalStyles';
 import DropDown from '../components/DropDown/DropDown';
-// import InfoSection3 from '../components/Info3/InfoSection';
 import styled from 'styled-components';
-// import { PhotoData, Photo2, Photo3, Photo4, Photo5, Photo6, Photo7, Photo8, Photo9, Photo10, Photo11, Photo12, Photo13, Photo14 } from '../data/PhotoData';
 import ScrollToTop from '../components/ScrollToTop';
 import { SRLWrapper } from 'simple-react-lightbox';
 import {Foo} from '../data/ImagesExpoData';
@@ -140,24 +138,10 @@ const Shop = () => {
             Ein Versuch, die Faszination dieser fast außerirdisch anmutenden Szenerie in Bildern zu erfassen.</p>
           <p>Die Preise gelten für Selbstabholer, alle Bilder auf Alu-Dibond mit Galerieschiene.
           <br/>
-          Zusendung auf Anfrage über: <FooterLink2 href={`mailto:hajo.lauenstein@t-online.de`}>hajo.lauenstein@t-online.de</FooterLink2> oder <Button2 to='/contact' alt="Contact us" title="Contact us">kontact</Button2></p>
+          Zusendung auf Anfrage über: <FooterLink2 href={`mailto:hajo.lauenstein@t-online.de`}>hajo.lauenstein@t-online.de</FooterLink2> oder <Button2 to='/contact' alt="kontakt" title="kontakt">kontakt</Button2></p>
         </Column>
       </Container>
     </Section>
-      {/* <InfoSection3 {...PhotoData}/>
-      <InfoSection3 {...Photo2}/>
-      <InfoSection3 {...Photo3}/>
-      <InfoSection3 {...Photo4}/>
-      <InfoSection3 {...Photo5}/>
-      <InfoSection3 {...Photo6}/>
-      <InfoSection3 {...Photo7}/>
-      <InfoSection3 {...Photo8}/>
-      <InfoSection3 {...Photo9}/>
-      <InfoSection3 {...Photo10}/>
-      <InfoSection3 {...Photo11}/>
-      <InfoSection3 {...Photo12}/>
-      <InfoSection3 {...Photo13}/>
-      <InfoSection3 {...Photo14}/> */}
       <SRLWrapper options={options}>
 				<div className="containerShop">
 					{Foo.map(image => (
@@ -165,7 +149,8 @@ const Shop = () => {
 							<a href={`/images/${image.imageName}`} >
 								<img className="image" src={`/images/${image.imageName}`} title={image.heading} alt= { image.heading  + ' (' + image.paragraphOne + ')' + image.paragraphThree} />
               </a>
-              {/* <p id="Shop">{image.heading}</p> */}
+              <p className="Shop">{image.heading}</p>
+              <p className="ShopP">{image.paragraphOne + image.paragraphThree}</p>
 						</div>
 					))}
 				</div>

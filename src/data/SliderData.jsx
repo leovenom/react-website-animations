@@ -11,7 +11,7 @@ import ImageEight from '../images/Rio_Negro:Brasilien.jpg'
 export const SliderData = [
   {
     title: 'Tourismus Dienstleistungen',
-    subtitle:'Reisebegleitung und Kreuzfahrten: weltweit, Reiseleitung: Südamerika, Nordeuropa und Sonstige.',
+    // subtitle:'Reisebegleitung und Kreuzfahrten: weltweit, Reiseleitung: Südamerika, Nordeuropa und Sonstige.',
     // price: '€90,00',
     path: '/Tour',
     label: 'Mehr erfahren',
@@ -20,7 +20,7 @@ export const SliderData = [
   },
   {
     title: 'Vorträge',
-    subtitle:'Südamerika, Mittelamerika, Karibik, Antarktis und Subantarktis, Europa und Allgemeine Themen.',
+    subtitle:'Südamerika, Mittelamerika, Karibik, Antarktis und Subantarktis, Arktis, Europa und Allgemeine Themen.',
     // price: '€90,00',
     path: "/video",
     label: 'Video ansehen',
@@ -28,22 +28,22 @@ export const SliderData = [
     alt: 'Video'
   },
   {
-    title: 'Beratung',
-    subtitle:'Korrekturen von Vorträgen, Präsentationen und Sendungen, erstellen von Spezial-Vorträgen.',
+    title: 'Beratung und Coaching',
+    subtitle:'Korrekturen von Vorträgen, Präsentationen, Texten und Sendungen, erstellen von Spezial-Vorträgen.',
     // price: '€130,00',
     path: '/contact',
-    label: 'Kontact',
+    label: 'Kontakt',
     image: ImageOne,
-    alt: 'Kontact'
+    alt: 'Kontakt'
   },
   {
     title: 'Scouting',
     subtitle:'Erkunden und bewerten von touristischen Zielen: Landschaft, Natur, Kultur, Hotels und Restaurants.',
     // price: '€130,00',
     path: '/contact',
-    label: 'Kontact',
+    label: 'Kontakt',
     image: ImageTwo,
-    alt: 'v'
+    alt: 'Kontakt'
   },
   // {
   //   title: 'Iceberg',
