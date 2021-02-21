@@ -29,7 +29,7 @@ const SignIn = () => {
               <FormLabel htmlFor='for'>E-Mail:</FormLabel>
                 <FormInput htmlFor='email' type='email' name='user_email' placeholder="kontakt@email.com" required />
               <FormLabel htmlFor='for'>Nachricht:</FormLabel>
-                <FormInputText htmlFor='mensagem' name="user_message" placeholder="" required />
+                <FormInputText htmlFor='mensagem' name="user_message" placeholder="Ihre Nachricht" required />
               <FormButton type='submit' value='send'>Absenden</FormButton>
             </Form>
           </FormContent>

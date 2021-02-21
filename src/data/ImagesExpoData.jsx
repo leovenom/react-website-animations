@@ -5,7 +5,7 @@ export const Foo = [
 	heading: "Form und Farbe 3",
   paragraphOne: "60x40cm",
   paragraphTwo: "Alu-Dibond mit Galerieschiene",
-  paragraphThree: "€ 90 Euro",
+  paragraphThree: " | 90 Euro",
 	},
 
 	{ id: '2', 
@@ -13,7 +13,7 @@ export const Foo = [
 	heading: "Eisberg 5",
   paragraphOne: "90x60cm",
   paragraphTwo: "Alu-Dibond mit Galerieschiene",
-  paragraphThree: "€ 130 Euro",
+  paragraphThree: " | 130 Euro",
 	},
 
 	{ id: '3', 
@@ -21,7 +21,7 @@ export const Foo = [
   heading: "Eisdiamant 2",
   paragraphOne: "90x60cm",
   paragraphTwo: "Alu-Dibond mit Galerieschiene",
-  paragraphThree: "€ 120 Euro",
+  paragraphThree: " | 120 Euro",
 	},
 
 	{ id: '4', 
@@ -29,7 +29,7 @@ export const Foo = [
   heading: "Form und Farbe 3",
   paragraphOne: "60x40cm",
   paragraphTwo: "Alu-Dibond mit Galerieschiene",
-  paragraphThree: "€ 90 Euro",
+  paragraphThree: " | 90 Euro",
 	},
 
 	{ id: '5', 
@@ -37,7 +37,7 @@ export const Foo = [
   heading: "Landschaft 2",
   paragraphOne: "90x60cm",
   paragraphTwo: "Alu-Dibond mit Galerieschiene",
-  paragraphThree: "€ 130 Euro",
+  paragraphThree: " | 130 Euro",
 	},
 
 	{ id: '6',
@@ -45,7 +45,7 @@ export const Foo = [
   heading: "Skulpturen 3",
   paragraphOne: "60x40cm",
   paragraphTwo: "Alu-Dibond mit Galerieschiene",
-  paragraphThree: "€ 90 Euro",
+  paragraphThree: " | 90 Euro",
 	},
 
 	{ id: '7', 
@@ -53,7 +53,7 @@ export const Foo = [
   heading: "Strukturen 1",
   paragraphOne: "60x40cm",
   paragraphTwo: "Alu-Dibond mit Galerieschiene",
-  paragraphThree: "€ 90 Euro",
+  paragraphThree: " | 90 Euro",
 	},
 
 	{ id: '8', 
@@ -61,7 +61,7 @@ export const Foo = [
   heading: "Eisberg 3",
   paragraphOne: "90x60cm",
   paragraphTwo: "Alu-Dibond mit Galerieschiene",
-  paragraphThree: "€ 130 Euro",
+  paragraphThree: " | 130 Euro",
 	},
 
 	{ id: '9', 
@@ -69,7 +69,7 @@ export const Foo = [
   heading: "Eishöhle",
   paragraphOne: "90x60cm",
   paragraphTwo: "Alu-Dibond mit Galerieschiene",
-  paragraphThree: "€ 130 Euro",
+  paragraphThree: " | 130 Euro",
 	},
 
 	{ id: '10', 
@@ -77,7 +77,7 @@ export const Foo = [
 	heading: "Landschaft 1",
   paragraphOne: "90x60cm",
   paragraphTwo: "Alu-Dibond mit Galerieschiene",
-  paragraphThree: "€ 130 Euro",
+  paragraphThree: " | 130 Euro",
 	},
 
 	{ id: '11', 
