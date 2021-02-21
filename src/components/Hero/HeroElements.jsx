@@ -79,7 +79,7 @@ export const HeroContent = styled.div`
     /* text-shadow: 0px 0px 20px rgba(0,0,0,0.4); */
     text-align:left;
     margin-bottom: 0.8rem;
-    max-width: 500px;
+    max-width: 547px;
     font-weight: 600;
   }
   h2 {
