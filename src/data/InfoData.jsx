@@ -16,7 +16,6 @@ export const InfoData = {
 export const InfoDataTwo = {
   heading: "Vorträge und Lektorate",
   paragraphOne: "Südamerika, Mittelamerika, Karibik und andere Länder, Antarktis und Subantarktis, Europa und Allgemeine Themen.",
-  // paragraphTwo: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. At explicabo enim ab dolor cumque quos",
   buttonLabel: "Vortragsausschnitt",
   image: ImageTwo,
   reverse: true,
@@ -26,7 +25,6 @@ export const InfoDataTwo = {
 export const InfoDataThree = {
   heading: "Beratung",
   paragraphOne: "Beratung und Umsetzung wissenschaftlicher Themen, Korrekturen von Vorträgen, Präsentationen und Sendungen, Erstellen von Spezial-Vorträgen.",
-  // paragraphTwo: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. At explicabo enim ab dolor cumque quos",
   buttonLabel: "Kontakt",
   image: ImageOne,
   reverse: false,
@@ -36,7 +34,6 @@ export const InfoDataThree = {
 export const InfoDataFour = {
   heading: "Scouting",
   paragraphOne: "Erkunden und Bewerten von touristischen Zielen: Landschaft, Natur, Kultur, Hotels und Restaurants.",
-  // paragraphTwo: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. At explicabo enim ab dolor cumque quos",
   buttonLabel: "Kontakt",
   image: ImageFour,
   reverse: true,

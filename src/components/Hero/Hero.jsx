@@ -1,9 +1,9 @@
-import React, {useState, useRef} from 'react'
+import React, { useState, useRef } from 'react'
 import { Button } from '../Button/ButtonElements'
 import { HeroSection, HeroWrapper, HeroSlide, HeroSlider, HeroImage, HeroContent, SliderButtons, PrevArrow, NextArrow, Arrow } from './HeroElements'
 //Arrow
 
-const Hero = ({slides}) => {
+const Hero = ({ slides }) => {
 
   const [current, setCurrent] = useState(0)
   const length = slides.length
@@ -22,23 +22,23 @@ const Hero = ({slides}) => {
   //   }
   // }, [current, length])
 
-  const nextSlide = () =>  {
+  const nextSlide = () => {
 
 
-    if(timeOut.current) {
+    if (timeOut.current) {
       clearTimeout(timeOut.current)
     }
-    setCurrent(current === length -1 ? 0 : current + 1)
+    setCurrent(current === length - 1 ? 0 : current + 1)
   };
 
-  const prevSlide = () =>  {
-    if(timeOut.current) {
+  const prevSlide = () => {
+    if (timeOut.current) {
       clearTimeout(timeOut.current)
     }
-    setCurrent(current === 0 ? length -1 : current -1)
+    setCurrent(current === 0 ? length - 1 : current - 1)
   };
 
-  if(!Array.isArray(slides) || slides.length <= 0) {
+  if (!Array.isArray(slides) || slides.length <= 0) {
     return null
   }
 
@@ -50,30 +50,30 @@ const Hero = ({slides}) => {
             <HeroSlide key={index}>
               {index === current && (
                 <HeroSlider>
-                  <HeroImage src={slide.image} alt={slide.alt}/>
-                    <HeroContent>
-                      <h1>{slide.title}</h1>
-                      <h2>{slide.subtitle}</h2>
-                      <p>{slide.price}</p>
-                      <Button
-                        to={slide.path}
-                        primary='true'
-                        css={`max-width: 160px;`}
-                        alt="Button" 
-                        title="button"
-                      >
-                        {slide.label}
-                        <Arrow />
-                      </Button>
-                    </HeroContent>
+                  <HeroImage src={slide.image} alt={slide.alt} />
+                  <HeroContent>
+                    <h1>{slide.title}</h1>
+                    <h2>{slide.subtitle}</h2>
+                    <p>{slide.price}</p>
+                    <Button
+                      to={slide.path}
+                      primary='true'
+                      css={`max-width: 160px;`}
+                      alt="Button"
+                      title="button"
+                    >
+                      {slide.label}
+                      <Arrow />
+                    </Button>
+                  </HeroContent>
                 </HeroSlider>
               )}
             </HeroSlide>
           );
         })}
         <SliderButtons>
-          <PrevArrow onClick={prevSlide} alt="Previous slide" title="Previous slide"/>
-          <NextArrow onClick={nextSlide} alt="Next slide" title="Next slide"/>
+          <PrevArrow onClick={prevSlide} alt="Previous slide" title="Previous slide" />
+          <NextArrow onClick={nextSlide} alt="Next slide" title="Next slide" />
         </SliderButtons>
       </HeroWrapper>
     </HeroSection>
