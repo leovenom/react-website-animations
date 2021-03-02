@@ -6,7 +6,7 @@ export const FooterContainer = styled.footer`
 `
 
 export const FooterWrap = styled.div`
-  padding: 48px 24px;
+  padding: 48px 24px 12px 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -83,6 +83,17 @@ export const FooterLinkEmail = styled.a`
     transition: 0.3s ease-in-out;
   }
 `
+export const FooterLinkDev = styled.a`
+  color: #fff;
+  /* text-decoration: none; */
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+
+  &:hover {
+    color: #3f8fcd;
+    transition: 0.3s ease-in-out;
+  }
+`
 export const SocialMedia = styled.section`
   max-width: 1000px;
   /* width: 100%; */
@@ -90,7 +101,7 @@ export const SocialMedia = styled.section`
 
 export const SocialMediaWrap = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   max-width: 1100px;
   margin: 40px auto 0 auto;
