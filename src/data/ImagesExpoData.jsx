@@ -85,7 +85,7 @@ export const Foo = [
   heading: "Skulpturen 2",
   paragraphOne: "60x40cm",
   paragraphTwo: "Alu-Dibond mit Galerieschiene",
-  paragraphThree: "€ 90 Euro",
+  paragraphThree: " | 90 Euro",
 	},
 
 	{ id: '12', 
@@ -93,7 +93,7 @@ export const Foo = [
   heading: "Skulpturen 4",
   paragraphOne: "60x40cm",
   paragraphTwo: "Alu-Dibond mit Galerieschiene",
-  paragraphThree: "€ 90 Euro",
+  paragraphThree: " | 90 Euro",
 	},
 
 	{ id: '13', 
@@ -101,7 +101,7 @@ export const Foo = [
   heading: "Eisberg 1",
   paragraphOne: "90x60cm",
   paragraphTwo: "Alu-Dibond mit Galerieschiene",
-  paragraphThree: "€ 130 Euro",
+  paragraphThree: " | 130 Euro",
 	},
 
 	{ id: '14', 
@@ -109,6 +109,6 @@ export const Foo = [
   heading: "Abend",
   paragraphOne: "90x60cm",
   paragraphTwo: "Alu-Dibond mit Galerieschiene",
-  paragraphThree: "€ 130 Euro",
+  paragraphThree: " | 130 Euro",
 	},
 ];
