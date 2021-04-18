@@ -117,15 +117,15 @@ export const arrowButtons = css`
   height: 50px;
   color: #fff;
   cursor: pointer;
-  background: #394D6E;
+  background: #1B93FA;
   border-radius: 50px;
   padding: 10px;
   margin-right: 1rem;
   user-select: none;
   transition: 0.3s;
-
+  
   &:hover {
-    background: #6B7EA2;
+    background: #394D6E;
     transform: scale(1.05);
   }
 `;

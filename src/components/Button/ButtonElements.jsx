@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Button = styled(Link)`
-  background: ${({ primary }) =>  (primary ? '#394D6E' : 'CD853F')};
+  background: ${({ primary }) =>  (primary ? '#1B93FA' : 'CD853F')};
   white-space: nowrap;
   outline: none;
   border: none;
@@ -15,7 +15,7 @@ export const Button = styled(Link)`
   justify-content: center;
   align-items: center;
   padding: ${({big}) => (big ? '16px 40px' :  '14px 24px')};
-  color: ${({primary}) => (primary ? '#fff' :  '#394D6E')};
+  color: ${({primary}) => (primary ? '#fff' :  '#1B93FA')};
   font-size: ${({big}) => (big ? '20px' :  '14px')};
   text-transform: uppercase;
   letter-spacing: 1px;

@@ -63,7 +63,7 @@ const ColumnRight = styled.div`
   }
 `;
 const ButtonLink = styled.a`
-  background: ${({ primary }) =>  (primary ? '#394D6E' : 'CD853F')};
+  background: ${({ primary }) =>  (primary ? '#1B93FA' : 'CD853F')};
   white-space: nowrap;
   outline: none;
   border: none;
