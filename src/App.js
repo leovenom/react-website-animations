@@ -6,6 +6,7 @@ import Gallery from './pages/Gallery';
 import Tour from './pages/Tour';
 import Shop from './pages/shop';
 import video from './pages/video';
+import Book from './pages/book';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/Gallery' component={Gallery} />
         <Route path='/Tour' component={Tour} />
         <Route path='/shop' component={Shop} />
+        <Route path='/book' component={Book} />
         <Route path='/video' component={video} />
       </Switch>
     </Router>
@@ -24,37 +26,3 @@ function App() {
 }
 
 export default App;
-
-
-// import React, {useState} from 'react'
-// import DropDown from './components/DropDown/DropDown';
-// import Footer from './components/Footer/Footer';
-// import Hero from './components/Hero/Hero';
-// import InfoSection from './components/Info/InfoSection';
-// import Navbar from './components/Navbar/Navbar'
-// import { InfoData, InfoDataTwo } from './data/InfoData';
-// import { SliderData } from './data/SliderData';
-// import GlobalStyle from './globalStyles';
-
-// function App() {
-
-//   const [isOpen, setIsOpen] = useState(false);
-
-//   const toggle = () => {
-//     setIsOpen(!isOpen);
-//   };
-
-//   return (
-//     <>
-//     <GlobalStyle />
-//     <Navbar toggle={toggle}/>
-//     <DropDown isOpen={isOpen} toggle={toggle}/>
-//     <Hero slides={SliderData} />
-//     <InfoSection {...InfoData}/>
-//     <InfoSection {...InfoDataTwo}/>
-//     <Footer />
-//     </>
-//   );
-// }
-
-// export default App;
