@@ -3,4 +3,5 @@ export const menuData = [
   { title: 'Reiseleitung', link:'/Tour'},
   { title: 'Fotografie', link:'/Gallery'},
   { title: 'Onlineshop', link:'/shop'},
+  // { title: 'Buchen', link:'/book'},
 ]
