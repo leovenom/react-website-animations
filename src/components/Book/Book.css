@@ -47,10 +47,6 @@
 	object-fit: cover;
 	height: 366px;
 }
-.SRLCaptionText  {
-	font-size: clamp(1.2rem, 2vw, 1.2rem) !important;
-	margin: 0 4em !important;
-}
 
 .Book {
 	margin: 0.5rem;
@@ -67,8 +63,5 @@
 @media screen and (max-width: 768px) {
 	.containerShop {
 		display: block;
-	}
-	.SRLCaptionText  {
-		margin: 0 !important;
 	}
 }
