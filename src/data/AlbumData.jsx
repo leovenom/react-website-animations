@@ -2,7 +2,7 @@ export const Album = [
 	{ id: '1', 
 	imageName: 'Landschaft/Alpenquerung_auf_der_E5.jpg',
 	tag: 'Landschaft', 
-	title: 'Alpenquerung auf der E5'
+	title: 'Alpenquerung auf der E5',
 	},
 
 	{ id: '2', 

@@ -7,8 +7,7 @@ import styled from 'styled-components';
 import ScrollToTop from '../components/ScrollToTop';
 import { SRLWrapper } from 'simple-react-lightbox';
 import {BookPic} from '../data/BookExpoData';
-import '../components/Shop/Shop.css';
-import { Button2 } from '../components/Button/ButtonElements';
+import '../components/Book/Book.css';
 import { FooterLink2 } from '../components/Footer/FooterElements'
 
 
@@ -23,7 +22,7 @@ const options = {
     showFullscreenButton: false,
     showNextButton: true,
     showPrevButton: true,
-    size: '30px'
+    size: '30px',
   },
   caption: {
     showCaption: true,
@@ -36,12 +35,12 @@ const options = {
   },
   settings: {
     disablePanzoom: true,
-  }
+  },
 }
 
 const Section = styled.section`
   width: 100%;
-  height: 100%;
+  height: auto;
   padding: 5rem 0rem 0rem;
   @media screen and (max-width: 680px) {
     padding: 3rem 0rem 0rem;
@@ -126,9 +125,9 @@ const Book = () => {
       <Section>
       <Container>
         <Column>
-        <h1>Buchen</h1>
-          <h2>Fotografie</h2>
-          <p>Zusendung auf Anfrage über: <FooterLink2 href={`mailto:hajo.lauenstein@t-online.de`}>hajo.lauenstein@t-online.de</FooterLink2> oder <Button2 to='/contact' alt="kontakt" title="kontakt">kontakt</Button2></p>
+        <h1>Buchen und Fotografie</h1>
+          <h2>Kreuzfahrtgeschichten und 102 schönste Orte</h2>
+          <p><FooterLink2 href={`/images/Hundertzwei schönste Orte.pdf`} target="_blank">Meine Hundertzwei schönsten Orte und Erinnerungen (PDF)</FooterLink2> und <FooterLink2 href={`/images/Literatur.pdf`} target="_blank">Literatur (PDF)</FooterLink2></p>
         </Column>
       </Container>
     </Section>
@@ -137,8 +136,9 @@ const Book = () => {
 					{BookPic.map(Album => (
 						<div key={Album.id} className="image-card">
 							<a href={`/images/${Album.imageName}`}>
-								<img className="image" src={`/images/${Album.imageName}`} alt={ Album.title } />
+								<img className="image" src={`/images/${Album.imageName}`} alt={ Album.title + ' - ' + Album.subtitle} />
 							</a>
+              <p className="Book">{Album.title}</p>
 						</div>
 					))}
 				</div>
