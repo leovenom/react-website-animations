@@ -1,4 +1,3 @@
-
 export const BookPic = [
 	{ id: '1', 
 	imageName: 'book/1a-Alaska-Unga-Island-August-2017.jpg',
