@@ -188,7 +188,7 @@ export const BookPic = [
 	},
 	
 	{ id: '33', 
-	imageName: 'book/17c- Chile, Torres del Paine - März 2008.jpg',
+	imageName: 'book/17c- Chile, Torres del Paine - Marz 2008.jpg',
 	title: '17c - Chile, Torres del Paine - März 2008',
 	subtitle: '',
 	},
