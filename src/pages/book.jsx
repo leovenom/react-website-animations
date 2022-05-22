@@ -54,8 +54,7 @@ const Section = styled.section`
 `;
 const Container = styled.div`
   padding: 3rem calc(100vw - 1300px) /2;
-  display: grid;
-  /* grid-template-columns: 1fr 1fr; */
+  padding: 4rem 0rem 0rem;
   grid-template-rows: 700px;
 
   @media screen and (max-width: 768px) {
@@ -82,6 +81,7 @@ color:#2F2E36;
     margin-top: 2rem;
     /* font-size: clamp(3.5rem, 8vw, 8rem); */
     font-size: clamp(1.4rem,6vw,5rem);
+    text-align: center;
   }
   h2{
     margin-bottom: 1rem;
@@ -131,7 +131,7 @@ const Book = () => {
       </Container>
     </Section>
     <SRLWrapper options={options}>
-				<div className="containerGallery">
+				<div className="containerBook">
 					{BookPic.map(Album => (
 						<div key={Album.id} className="image-card">
 							<a href={`/images/${Album.imageName}`}>
