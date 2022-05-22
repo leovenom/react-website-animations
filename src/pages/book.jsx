@@ -125,8 +125,7 @@ const Book = () => {
       <Section>
       <Container>
         <Column>
-        <h1>Buchen und Fotografie</h1>
-          <h2>Kreuzfahrtgeschichten und 102 schönste Orte</h2>
+        <h1>Kreuzfahrtgeschichten und 102 schönste Orte</h1>
           <p><FooterLink2 href={`/images/Hundertzwei schönste Orte.pdf`} target="_blank">Meine Hundertzwei schönsten Orte und Erinnerungen (PDF)</FooterLink2> und <FooterLink2 href={`/images/Literatur.pdf`} target="_blank">Literatur (PDF)</FooterLink2></p>
         </Column>
       </Container>
