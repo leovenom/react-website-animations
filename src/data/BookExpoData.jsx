@@ -7,9 +7,9 @@ export const BookPic = [
 
 	{ id: '2', 
 		imageName: 'book/1b- Alasaka, Unga Island - August 2017.jpg',
-		title: '1b - Alasaka, Unga Island - August 2017',
+		title: '1b - Alaska, Unga Island - August 2017',
 	},
-
+				
 	{ id: '3', 
 		imageName: 'book/1c- Alaska, Unga Island - August 2017.jpg',
 		title: '1c - Alaska, Unga Island - August 2017',
@@ -111,7 +111,7 @@ export const BookPic = [
 	
 	{ id: '20', 
 	imageName: 'book/12a Brasilien, Chapada Diamantina - Mai 2018.jpg',
-	title: '12a Brasilien, Chapada Diamantina - Mai 2018.jpg',
+	title: '12a Brasilien, Chapada Diamantina - Mai 2018',
 	subtitle: 'Die Chapada Diamantina ist ein Mittelgebirge im brasilianischen Bundesstaat Bahia. Der zentrale Ort ist das kleine Städtchen Lençóis. Es stammt aus der Zeit der Diamantfunde. Die Landschaft ist geprägt von tiefen Canyons und Tafelbergen, Wasserfällen, kristallklaren Seen und einem Höhlensystem mit fantastischen unterirdischen Seen und Tropfsteinformationen. Dazu eine exuberante Flora und Fauna.',
 	},
 	
@@ -171,7 +171,7 @@ export const BookPic = [
 	
 	{ id: '30', 
 	imageName: 'book/16c- Chile, Atacama, Mondtal - November 2008.jpg',
-	title: '16c - Chile, Atacama, Mondtal - November 2008.jpg',
+	title: '16c - Chile, Atacama, Mondtal - November 2008',
 	subtitle: '',
 	},
 	
@@ -255,7 +255,7 @@ export const BookPic = [
 	
 	{ id: '44', 
 	imageName: 'book/23- England, Scilly Isles - Juni 2015 .jpg',
-	title: '23 - England, Scilly Isles - Juni 2015 .jpg',
+	title: '23 - England, Scilly Isles - Juni 2015',
 	subtitle: 'Wenn man ein Karibikgefühl bekommen will, aber nicht so weit fliegen möchte, dann empfehle ich die Scilly Isles. Aquamarinfarbenes Meer, schneeweiße Strände, grandiose Granitformationen und auf einer der Inseln der berühmte Tresco Abbey Garden. Ein absolutes Wunder der englischen Gartenkunst. Hier gedeihen dank des Golfstromes nicht nur subtropische, sondern sogar tropische Gewächse.',
 	},
 	
@@ -315,7 +315,7 @@ export const BookPic = [
 	
 	{ id: '54', 
 	imageName: 'book/29b- Franzosisch Guayana, Iles du Salut - April 2015.jpg',
-	title: '29b - Französisch Guayana, Iles du Salut - April 2015.jpg',
+	title: '29b - Französisch Guayana, Iles du Salut - April 2015',
 	subtitle: '',
 	},
 	
@@ -393,7 +393,7 @@ export const BookPic = [
 
 	{ id: '67', 
 	imageName: 'book/40- Jan Mayen - Juni 2019.jpg',
-	title: '40 - Jan Mayen - Juni 2019.jpg',
+	title: '40 - Jan Mayen - Juni 2019',
 	subtitle: 'Jan Mayen betört die Sinne durch seine Lage im arktischen Ozean und durch seine Unnahbarkeit. Die kleine Insel liegt fast mittig im Nordpolarmeer zwischen Grönland, Spitzbergen, Norwegen und Island. Fast immer ist diese winzige, fast unbewohnte Insel in Nebel gehüllt. Es gibt dort lediglich eine kleine norwegische Wetterstation und ansonsten nur einen Strand aus schwarzem und grün glänzendem Lavasand, einen großen ins Meer mündenden Gletscher und eine Bergspitze. Alles wie gesagt fast immer verhüllt von einer Nebelwand.',
 	},
 
@@ -483,7 +483,7 @@ export const BookPic = [
 	
 	{ id: '82', 
 	imageName: 'book/53- Madeira, Funchal, Rua de Santa Maria - Mai 2016.jpg',
-	title: '53 - Madeira, Funchal, Rua de Santa Maria - Mai 2016.jpg',
+	title: '53 - Madeira, Funchal, Rua de Santa Maria - Mai 2016',
 	subtitle: 'Es gab einmal eine Zeit, in der kein Tourist die verfallene Rua de Santa Maria besuchte. Das ist seit 2011 vorbei. Seit dieser Zeit bemalen Künstler die Türen und Fenster der Häuser in den kopfsteingepflasterten engen Straßen. Die Haustüren wurden zum Kunstobjekt. Über zweihundert Hauseingänge sind so in Open-Air-Kunst umgewandelt worden. Auf der ohnehin schon engen Straße haben sich dutzende von Restaurants angesiedelt, die ihre Tische und Stühle auf dem unebenen Kopfsteinpflaster aufgestellt haben.',
 	},
 	
@@ -537,19 +537,19 @@ export const BookPic = [
 
 	{ id: '91', 
 	imageName: 'book/60- Namibia, Bogenfels - Oktober 1988 (Foto Wikipedia).jpg',
-	title: '60 - Namibia, Bogenfels - Oktober 1988 (Foto Wikipedia)',
+	title: '60 - Namibia, Bogenfels - Oktober 1988 (Bild Wikipedia)',
 	subtitle: 'An der sturmumtosten Atlantikküste von Namibia, südlich des Oranje-Flusses, nahe der Grenze zu Südafrika liegt ein landschaftliches Juwel. Eine Besichtigung ist schwierig. Nur mit einer speziellen Genehmigung gelangt man dorthin. Der 55 Meter hohe Bogenfels, ein mächtiges Felsentor aus Kalkstein zwischen Meer und Strand, liegt nämlich im Diamantsperrgebiet. In der Elisabeth-Bucht ragt der Fels majestätisch in den Himmel. Ende der achtziger Jahre hatte ich einmal die Gelegenheit, schwer bewacht von zwei Soldaten der Diamantenpolizei, dieses geologische Wüstenmonument zu besichtigen.',
 	},
 	
 	{ id: '92', 
 	imageName: 'book/61- Namibia, Fishriver Canyon - 1988 (Foto Calpips).jpg',
-	title: '61 - Namibia, Fishriver Canyon - 1988 (Foto Calpips)',
+	title: '61 - Namibia, Fishriver Canyon - 1988 (Bild Calpips)',
 	subtitle: "Es war für viele junge Menschen in den achtziger Jahren fast Kult, in Namibia mit dem laut aufgedrehten Lied „Hymn“ von Barclay James Harvest mit einer Dose Bier in der linken- und einem Joint in der rechten Hand am Rand des Fishriver-Canyons zu stehen, m den Sonnenuntergang zu bewundern. Und völlig zugedröhnt versuchten einige trotz der Warnung im Text des Liedes zu fliegen. Gut, dass ich keinen Joint, sondern nur eine Dose Bier in der Hand hatte.",
 	},
 	
 	{ id: '93', 
 	imageName: 'book/62- Namibia, Kolmannkop - Mai1987 (Foto Wikipedia).jpg',
-	title: '62 - Namibia, Kolmannkop - Mai1987 (Foto Wikipedia)',
+	title: '62 - Namibia, Kolmannkop - Mai1987 (Bild Wikipedia)',
 	subtitle: 'Kolmanskop ist eine aufgegebene Geisterstadt in Namibia, ungefähr zehn Kilometer östlich der Hafenstadt Lüderitz. 1908, als Namibia noch Deutsch-Südwestafrika war, fand der Deutsche August Stauch am damaligen Eisenbahn-Bahnhof Grasplatz zufällig einen großen Diamanten im Wüstensand. Ein unglaublicher Boom begann, und so wurde in der eigentlich trostlosen und lebensfeindlichen Wüste mit ihren Sandstürmen eine luxuriöse Bergbaustadt für bis zu vierhundert Menschen erschaffen.',
 	},
 	
@@ -862,7 +862,7 @@ export const BookPic = [
 	
 	{ id: '145', 
 	imageName: 'book/100- USA, Bryce Canon - Oktober 1998 (Wikipedia).jpg',
-	title: '100 - USA, Bryce Canon - Oktober 1998 (Wikipedia)',
+	title: '100 - USA, Bryce Canon - Oktober 1998 (Bild Wikipedia)',
 	subtitle: 'Ein Meer von Mauern, Pyramiden, Türmen, Phallen, Hügeln, Stangen und Titanen aus rotem, gelbem, weißem oder orangefarbenem Sandstein. Das ist der Bryce Canyon. Ein Amphitheater, ein geologisches Wunderland. Es gibt einfach nicht genug Superlative um diesen Canyon, der eigentlich gar kein Canyon ist, zu beschreiben. Es gibt unzählige Wanderrouten durch den Park.',
 	},
 	
