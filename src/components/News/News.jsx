@@ -101,7 +101,7 @@ const LinkContainer = styled.div`
   }
 `
 
-const News = ({heading, paragraphOne, paragraphTwo, buttonLabelBook, image, reverse}) => {
+const news = ({heading, paragraphOne, paragraphTwo, buttonLabelBook, image, reverse}) => {
   return ( 
     <Section>
       <Container>
@@ -127,4 +127,4 @@ const News = ({heading, paragraphOne, paragraphTwo, buttonLabelBook, image, reve
   )
 }
 
-export default News;
+export default news;

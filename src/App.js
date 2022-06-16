@@ -7,7 +7,7 @@ import Tour from "./pages/Tour";
 import Shop from "./pages/shop";
 import video from "./pages/video";
 import Book from "./pages/book";
-import News from "./pages/News";
+import News from "./pages/news";
 
 function App() {
   return (
