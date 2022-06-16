@@ -108,7 +108,6 @@ const News = ({heading, paragraphOne, paragraphTwo, buttonLabelBook, image, reve
         <ColumnLeft reverse={reverse}>
           <h1>{heading}</h1>
           <p>{paragraphOne}</p>
-         
         </ColumnLeft>
         <ColumnRight reverse={reverse}>
           <img src={image} alt="Book" />
