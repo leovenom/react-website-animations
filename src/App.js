@@ -7,7 +7,7 @@ import Tour from "./pages/Tour";
 import Shop from "./pages/shop";
 import video from "./pages/video";
 import Book from "./pages/book";
-import News from "./pages/news";
+import News from "./pages/News";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Route path="/Gallery" component={Gallery} />
         <Route path="/Tour" component={Tour} />
         <Route path="/shop" component={Shop} />
-        <Route path="/news" component={News} />
+        <Route path="/News" component={News} />
         <Route path="/book" component={Book} />
         <Route path="/video" component={video} />
       </Switch>
