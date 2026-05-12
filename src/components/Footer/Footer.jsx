@@ -26,7 +26,7 @@ const Footer = () => {
           <SocialMediaWrap>
             <WebsiteRights>Lauenstein © {new Date().getFullYear()} All rights reserved</WebsiteRights>
           </SocialMediaWrap>
-          <WebsiteRights >Developed with 💙 by <FooterLinkDev href="https://leonardt.eu/" target="_blank" title="Leonardt developer" >leonardt</FooterLinkDev></WebsiteRights>
+          <WebsiteRights >Developed with 💙 by <FooterLinkDev href="https://leonardt-profile.netlify.app/" target="_blank" title="Leonardt developer" >leonardt</FooterLinkDev></WebsiteRights>
         {/* </SocialMedia> */}
       </FooterWrap>
     </FooterContainer>
